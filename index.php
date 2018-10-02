@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
@@ -10,7 +10,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Glint</title>
+    <title>Insolar, making solar easy</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -20,6 +20,7 @@
 
     <!-- CSS
     ================================================== -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/glint_base.css">
     <link rel="stylesheet" href="css/glint_vendor.css">
     <link rel="stylesheet" href="css/glint_main.css">
@@ -44,7 +45,7 @@
 
         <div class="header-logo">
             <a class="site-logo" href="index.php">
-                <img src="images/logo.png" alt="Homepage">
+                <img src="images/insolar_logo.png" alt="Homepage">
             </a>
         </div>
 
@@ -57,14 +58,15 @@
                 
                 <ul class="header-nav__list">
                     <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="insolar experience">Insolar Experience</a></li>
                     <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
                     <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
                     <li><a class="smoothscroll"  href="#clients" title="clients">Clients</a></li>
                     <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
                 </ul>
     
-                <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
+<!--                This secition is not needed at the moment
+                    <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>-->
     
                 <ul class="header-nav__social">
                     <li>
@@ -112,22 +114,44 @@
 
             <div class="row home-content__main">
 
-                <h3>Welcome to Glint</h3>
+                 <div class="col-md-8" id="hero_banner">
+                    <h3>Welcome to Insolar</h3>
 
-                <h1>
-                    We are a creative group <br>
-                    of people who design <br>
-                    influential brands and <br>
-                    digital experiences.
-                </h1>
+                    <h1>
+                        We Make Going Solar, Easy.
+                    </h1>
 
-                <div class="home-content__buttons">
-                    <a href="#contact" class="smoothscroll btn btn--stroke">
-                        Start a Project
-                    </a>
-                    <a href="#about" class="smoothscroll btn btn--stroke">
-                        More About Us
-                    </a>
+    <!--                This section is not needed right now-->
+    <!--               <div class="home-content__buttons">-->
+    <!--                    <a href="#contact" class="smoothscroll btn btn--stroke">-->
+    <!--                        Start a Project-->
+    <!--                    </a>-->
+    <!--                    <a href="#about" class="smoothscroll btn btn--stroke">-->
+    <!--                        More About Us-->
+    <!--                    </a>-->
+    <!--                </div>-->
+                </div>
+                <div class="col-md-4" id="call-to-action-form">
+                    <h3 class="h6">Get a quote</h3>
+
+                    <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                        <fieldset>
+
+                            <div class="form-field">
+                                <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                            </div>
+                            <div class="form-field">
+                                <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                            </div>
+                            <div class="form-field">
+                                <input name="contactAddress" type="text" id="contactAddress" placeholder="Your Address" value="" class="full-width">
+                            </div>
+                            <div class="form-field" id="form-submit">
+                                <button class="full-width btn--primary">Submit</button>
+                            </div>
+
+                        </fieldset>
+                    </form>
                 </div>
 
             </div>
@@ -143,23 +167,24 @@
         </div> <!-- end home-content -->
 
 
-        <ul class="home-social">
-            <li>
-                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-behance" aria-hidden="true"></i><span>Behance</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
-            </li>
-        </ul> 
+<!--            This section is not needed right now
+                <ul class="home-social">-->
+<!--            <li>-->
+<!--                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#0"><i class="fa fa-behance" aria-hidden="true"></i><span>Behance</span></a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#0"><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>-->
+<!--            </li>-->
+<!--        </ul> -->
         <!-- end home-social -->
 
     </section> <!-- end s-home -->
@@ -815,9 +840,12 @@
 
     <!-- Java Script
     ================================================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/glint_plugins.js"></script>
     <script src="js/glint_main.js"></script>
+
 
 </body>
 
