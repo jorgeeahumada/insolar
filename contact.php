@@ -15,19 +15,19 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/philosophy_base.css">
+    <link rel="stylesheet" href="css/philosophy_vendor.css">
+    <link rel="stylesheet" href="css/philosophy_main.css">
 
     <!-- script
     ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+    <script src="js/philosophy_modernizr.js"></script>
+    <script src="js/philosophy_pace.min.js"></script>
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="philosophy_favicon.ico" type="image/x-icon">
+    <link rel="icon" href="philosophy_favicon.ico" type="image/x-icon">
 
 </head>
 
@@ -41,7 +41,7 @@
             <div class="header__content row">
 
                 <div class="header__logo">
-                    <a class="logo" href="index.html">
+                    <a class="logo" href="philosophy_main_page.php">
                         <img src="images/logo.svg" alt="Homepage">
                     </a>
                 </div> <!-- end header__logo -->
@@ -85,30 +85,30 @@
                     <h2 class="header__nav-heading h6">Site Navigation</h2>
 
                     <ul class="header__nav">
-                        <li><a href="index.html" title="">Home</a></li>
+                        <li><a href="philosophy_main_page.php" title="">Home</a></li>
                         <li class="has-children">
                             <a href="#0" title="">Categories</a>
                             <ul class="sub-menu">
-                            <li><a href="category.html">Lifestyle</a></li>
-                            <li><a href="category.html">Health</a></li>
-                            <li><a href="category.html">Family</a></li>
-                            <li><a href="category.html">Management</a></li>
-                            <li><a href="category.html">Travel</a></li>
-                            <li><a href="category.html">Work</a></li>
+                            <li><a href="category.php">Lifestyle</a></li>
+                            <li><a href="category.php">Health</a></li>
+                            <li><a href="category.php">Family</a></li>
+                            <li><a href="category.php">Management</a></li>
+                            <li><a href="category.php">Travel</a></li>
+                            <li><a href="category.php">Work</a></li>
                             </ul>
                         </li>
                         <li class="has-children">
                             <a href="#0" title="">Blog</a>
                             <ul class="sub-menu">
-                            <li><a href="single-video.html">Video Post</a></li>
-                            <li><a href="single-audio.html">Audio Post</a></li>
-                            <li><a href="single-gallery.html">Gallery Post</a></li>
-                            <li><a href="single-standard.html">Standard Post</a></li>
+                            <li><a href="single-video.php">Video Post</a></li>
+                            <li><a href="single-audio.php">Audio Post</a></li>
+                            <li><a href="single-gallery.php">Gallery Post</a></li>
+                            <li><a href="single-standard.php">Standard Post</a></li>
                             </ul>
                         </li>
-                        <li><a href="style-guide.html" title="">Styles</a></li>
-                        <li><a href="about.html" title="">About</a></li>
-                        <li class="current"><a href="contact.html" title="">Contact</a></li>
+                        <li><a href="style-guide.php" title="">Styles</a></li>
+                        <li><a href="about.php" title="">About</a></li>
+                        <li class="current"><a href="contact.php" title="">Contact</a></li>
                     </ul> <!-- end header__nav -->
 
                     <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
@@ -437,9 +437,9 @@
     <!-- Java Script
     ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
+    <script src="js/philosophy_plugins.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/philosophy_main.js"></script>
 
 </body>
 

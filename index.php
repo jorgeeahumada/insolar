@@ -20,19 +20,19 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/glint_base.css">
+    <link rel="stylesheet" href="css/glint_vendor.css">
+    <link rel="stylesheet" href="css/glint_main.css">
 
     <!-- script
     ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+    <script src="js/glint_modernizr.js"></script>
+    <script src="js/glint_pace.min.js"></script>
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="glint_favicon.ico" type="image/x-icon">
+    <link rel="icon" href="glint_favicon.ico" type="image/x-icon">
 
 </head>
 
@@ -43,7 +43,7 @@
     <header class="s-header">
 
         <div class="header-logo">
-            <a class="site-logo" href="index.html">
+            <a class="site-logo" href="index.php">
                 <img src="images/logo.png" alt="Homepage">
             </a>
         </div>
@@ -811,8 +811,8 @@
     <!-- Java Script
     ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/glint_plugins.js"></script>
+    <script src="js/glint_main.js"></script>
 
 </body>
 

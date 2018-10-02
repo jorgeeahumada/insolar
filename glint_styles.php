@@ -20,9 +20,9 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/glint_base.css">
+    <link rel="stylesheet" href="css/glint_vendor.css">
+    <link rel="stylesheet" href="css/glint_main.css">
 
     <style type="text/css" media="screen">
         .s-styles { 
@@ -34,13 +34,13 @@
 
     <!-- script
     ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+    <script src="js/glint_modernizr.js"></script>
+    <script src="js/glint_pace.min.js"></script>
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="glint_favicon.ico" type="image/x-icon">
+    <link rel="icon" href="glint_favicon.ico" type="image/x-icon">
 
 </head>
 
@@ -51,7 +51,7 @@
     <header class="s-header">
 
         <div class="header-logo">
-            <a class="site-logo" href="index.html">
+            <a class="site-logo" href="index.php">
                 <img src="images/logo.png" alt="Homepage">
             </a>
         </div>
@@ -64,11 +64,11 @@
                 <h3>Navigation</h3>
                 
                 <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="index.html" title="home">Home</a></li>
-                    <li><a href="index.html#about" title="about">About</a></li>
-                    <li><a href="index.html#services" title="services">Services</a></li>
-                    <li><a href="index.html#works" title="works">Works</a></li>
-                    <li><a href="index.html#clients" title="clients">Clients</a></li>
+                    <li class="current"><a class="smoothscroll"  href="index.php" title="home">Home</a></li>
+                    <li><a href="index.php#about" title="about">About</a></li>
+                    <li><a href="index.php#services" title="services">Services</a></li>
+                    <li><a href="index.php#works" title="works">Works</a></li>
+                    <li><a href="index.php#clients" title="clients">Clients</a></li>
                     <li><a href="#contact" title="contact">Contact</a></li>
                 </ul>
     
@@ -128,7 +128,7 @@
                     <a href="#contact" class="smoothscroll btn btn--stroke">
                         Start a Project
                     </a>
-                    <a href="index.html#about" class="smoothscroll btn btn--stroke">
+                    <a href="index.php#about" class="smoothscroll btn btn--stroke">
                         More About Us
                     </a>
                 </div>
@@ -767,8 +767,8 @@
     <!-- Java Script
     ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/glint_plugins.js"></script>
+    <script src="js/glint_main.js"></script>
 
 </body>
 

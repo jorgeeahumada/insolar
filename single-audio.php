@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Standard Post Format - Philosophy</title>
+    <title>Audio Post Format - Philosophy</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -15,19 +15,19 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/philosophy_base.css">
+    <link rel="stylesheet" href="css/philosophy_vendor.css">
+    <link rel="stylesheet" href="css/philosophy_main.css">
 
     <!-- script
     ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+    <script src="js/philosophy_modernizr.js"></script>
+    <script src="js/philosophy_pace.min.js"></script>
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="philosophy_favicon.ico" type="image/x-icon">
+    <link rel="icon" href="philosophy_favicon.ico" type="image/x-icon">
 
 </head>
 
@@ -41,7 +41,7 @@
             <div class="header__content row">
 
                 <div class="header__logo">
-                    <a class="logo" href="index.html">
+                    <a class="logo" href="philosophy_main_page.php">
                         <img src="images/logo.svg" alt="Homepage">
                     </a>
                 </div> <!-- end header__logo -->
@@ -85,30 +85,30 @@
                     <h2 class="header__nav-heading h6">Site Navigation</h2>
 
                     <ul class="header__nav">
-                        <li><a href="index.html" title="">Home</a></li>
+                        <li><a href="index.php" title="">Home</a></li>
                         <li class="has-children">
                             <a href="#0" title="">Categories</a>
                             <ul class="sub-menu">
-                            <li><a href="category.html">Lifestyle</a></li>
-                            <li><a href="category.html">Health</a></li>
-                            <li><a href="category.html">Family</a></li>
-                            <li><a href="category.html">Management</a></li>
-                            <li><a href="category.html">Travel</a></li>
-                            <li><a href="category.html">Work</a></li>
+                            <li><a href="category.php">Lifestyle</a></li>
+                            <li><a href="category.php">Health</a></li>
+                            <li><a href="category.php">Family</a></li>
+                            <li><a href="category.php">Management</a></li>
+                            <li><a href="category.php">Travel</a></li>
+                            <li><a href="category.php">Work</a></li>
                             </ul>
                         </li>
                         <li class="has-children current">
                             <a href="#0" title="">Blog</a>
                             <ul class="sub-menu">
-                            <li><a href="single-video.html">Video Post</a></li>
-                            <li><a href="single-audio.html">Audio Post</a></li>
-                            <li><a href="single-gallery.html">Gallery Post</a></li>
-                            <li><a href="single-standard.html">Standard Post</a></li>
+                            <li><a href="single-video.php">Video Post</a></li>
+                            <li><a href="single-audio.php">Audio Post</a></li>
+                            <li><a href="single-gallery.php">Gallery Post</a></li>
+                            <li><a href="single-standard.php">Standard Post</a></li>
                             </ul>
                         </li>
-                        <li><a href="style-guide.html" title="">Styles</a></li>
-                        <li><a href="about.html" title="">About</a></li>
-                        <li><a href="contact.html" title="">Contact</a></li>
+                        <li><a href="style-guide.php" title="">Styles</a></li>
+                        <li><a href="about.php" title="">About</a></li>
+                        <li><a href="contact.php" title="">Contact</a></li>
                     </ul> <!-- end header__nav -->
 
                     <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
@@ -125,11 +125,11 @@
     ================================================== -->
     <section class="s-content s-content--narrow s-content--no-padding-bottom">
 
-        <article class="row format-standard">
+        <article class="row format-audio">
 
             <div class="s-content__header col-full">
                 <h1 class="s-content__header-title">
-                    This Is A Standard Format Post.
+                    This Is an Audio Post Format.
                 </h1>
                 <ul class="s-content__header-meta">
                     <li class="date">December 16, 2017</li>
@@ -143,11 +143,15 @@
     
             <div class="s-content__media col-full">
                 <div class="s-content__post-thumb">
-                    <img src="images/thumbs/single/standard/standard-1000.jpg" 
-                         srcset="images/thumbs/single/standard/standard-2000.jpg 2000w, 
-                                 images/thumbs/single/standard/standard-1000.jpg 1000w, 
-                                 images/thumbs/single/standard/standard-500.jpg 500w" 
+                    <img src="images/thumbs/single/audio/audio-1000.jpg" 
+                         srcset="images/thumbs/single/audio/audio-2000.jpg 2000w, 
+                                images/thumbs/single/audio/audio-1000.jpg 1000w, 
+                                images/thumbs/single/audio/audio-500.jpg 500w" 
                          sizes="(max-width: 2000px) 100vw, 2000px" alt="" >
+
+                    <div class="audio-wrap">
+                        <audio id="player2" src="media/AirReview-Landmarks-02-ChasingCorporate.mp3" width="100%" height="42" controls="controls"></audio>
+                    </div>
                 </div>
             </div> <!-- end s-content__media -->
 
@@ -683,8 +687,8 @@
     <!-- Java Script
     ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/philosophy_plugins.js"></script>
+    <script src="js/philosophy_main.js"></script>
 
 </body>
 
