@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 <head>
 
-    <!--- basic page needs
+    <!--- basic page needs this
     ================================================== -->
     <meta charset="utf-8">
     <title>About - Philosophy</title>
