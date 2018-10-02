@@ -1772,6 +1772,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     background-color: #000000;
 }
 
+
+
+.banner__video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 .no-js .s-home {
     background: #000000;
 }
