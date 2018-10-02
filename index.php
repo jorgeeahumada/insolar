@@ -98,7 +98,12 @@
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    <section id="home" class="s-home target-section" data-parallax="scroll" >
+
+        <video autoplay loop muted class="banner__video">
+                <source src="media/3452381-preview.mp4" type="video/mp4">
+        </video>
+
 
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
