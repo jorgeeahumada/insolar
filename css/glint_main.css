@@ -502,7 +502,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #39b54a;
+    background: #BCDB52;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -545,7 +545,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-    background-color: #39b54a;
+    background-color: #BCDB52;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -832,8 +832,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #39b54a;
-    border-color: #39b54a;
+    background: #BCDB52;
+    border-color: #BCDB52;
     color: #FFFFFF;
 }
 
@@ -1818,6 +1818,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content__main {
     padding-top: 24rem;
     position: relative;
+    margin: 0 5vw 0 5vw;
+    max-width: 90vw;
+
 }
 
 .home-content__buttons {
@@ -1845,6 +1848,52 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #000000;
 }
 
+.home-content #hero_banner{
+    padding: 0 10vw 0 20px;
+}
+
+.home-content #call-to-action-form {
+    max-width: 400px;
+}
+
+.home-content #call-to-action-form .form-field{
+    background-color: rgba(250,250,250,.7);
+    padding-left: 10px;
+}
+
+.home-content #call-to-action-form .form-field input::placeholder{
+        color:#18191C;
+}
+
+.home-content #call-to-action-form .form-field label {
+    font-family: "montserrat-light", sans-serif;
+    font-size: 1rem;
+    line-height: 2.4rem;
+    position: absolute;
+    bottom: -0.3rem;
+    right: .6rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    padding: 0 2rem;
+    margin: 0;
+    color: #FFFFFF;
+    background: #39b54a;
+}
+
+.home-content #call-to-action-form .form-field label::after {
+    content: "";
+    position: absolute;
+    left: -5px;
+    top: 50%;
+    margin-top: -6px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #39b54a;
+}
+
+.home-content #call-to-action-form #form-submit{
+    background-color:rgba(0,0,0,0);
+}
 .home-content__scroll {
     position: absolute;
     right: 9.5rem;
@@ -1864,8 +1913,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::before {
-    border-bottom: 2px solid #39b54a;
-    border-right: 2px solid #39b54a;
+    border-bottom: 2px solid #BCDB52;
+    border-right: 2px solid #BCDB52;
     content: '';
     display: block;
     height: 8px;
@@ -1889,7 +1938,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 2px;
     height: 10.2rem;
-    background-color: #39b54a;
+    background-color: #BCDB52;
     position: absolute;
     right: 7.2rem;
     bottom: 0;
