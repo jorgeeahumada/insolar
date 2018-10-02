@@ -44,7 +44,7 @@
 
         <div class="header-logo">
             <a class="site-logo" href="index.php">
-                <img src="images/logo.png" alt="Homepage">
+                <img src="images/insolar_logo.png" alt="Homepage">
             </a>
         </div>
 
@@ -57,10 +57,10 @@
                 
                 <ul class="header-nav__list">
                     <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
-                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
-                    <li><a class="smoothscroll"  href="#clients" title="clients">Clients</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="insolar experience">Insolar Experience</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="savings calculator">Savings Calculator</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="works">Resources</a></li>
+                    <li><a class="smoothscroll"  href="#clients" title="log in">Log In</a></li>
                     <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
                 </ul>
     
@@ -98,7 +98,7 @@
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero_house.png" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
