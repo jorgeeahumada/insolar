@@ -1217,9 +1217,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .display-1 {
     font-family: "work-sans", sans-serif;
-    font-size: 7.8rem;
+    font-size: 6.8rem;
     line-height: 1.25;
-    color: #18191C;
+    color: #010507;
     margin-top: 0;
 }
 
@@ -2290,13 +2290,13 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #39b54a;
+    background-color: #FBF8F2;
     color: #010507;
     position: relative;
 }
 
 .s-about .section-header.has-bottom-sep::before {
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: #FBF8F2;
 }
 
 .about-desc {

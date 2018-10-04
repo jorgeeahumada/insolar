@@ -200,11 +200,11 @@
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
 
-                <h3 class="display-1 display-1--light">Go Solar in three easy steps</h3>
+                <h3 class="display-1 ">Go Solar in three easy steps</h3>
             </div>
         </div> <!-- end section-header -->
 
-        <div class="row about-desc" data-aos="fade-up">
+       <!-- <div class="row about-desc" data-aos="fade-up">
             <div class="col-full">
                 <p>
 
@@ -212,7 +212,40 @@
             </div>
         </div> <!-- end about-desc -->
 
-        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+        <div class="row services-list block-1-2 block-tab-full">
+
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+                <i class="fa fa-keyboard-o"></i>
+            </div>
+            <div class="service-text">
+                <h3 class="h2">Step 1</h3>
+                <p> Tell us about your home </p>
+            </div>
+        </div>
+
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+                <i class="fa fa-clock-o"></i>
+            </div>
+            <div class="service-text">
+                <h3 class="h2">Step 2</h3>
+                <p> Get your best quotes in seconds </p>
+            </div>
+        </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="fa fa-sun-o"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Step 3</h3>
+                    <p> Enjoy your hassle free solar energy </p>
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
                 
             <div class="col-block stats__col ">
                 <div class="stats__count">127</div>
@@ -342,8 +375,8 @@
                 
             <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
                 <div class="col-full">
-                    <h3 class="subhead">Recent Works</h3>
-                    <h1 class="display-2 display-2--light">We love what we do, check out some of our latest works</h1>
+                    <h3 class="display-2 display-2--light">Learn more</h3>
+                    <!-- <h1 class="display-2 display-2--light">We love what we do, check out some of our latest works</h1> -->
                 </div>
             </div> <!-- end section-header -->
 
@@ -357,28 +390,27 @@
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
-                                    <img src="images/portfolio/lady-shutterbug.jpg" 
-                                         srcset="images/portfolio/lady-shutterbug.jpg 1x, images/portfolio/lady-shutterbug@2x.jpg 2x" alt="">
+                                <a href="images/how_solar_works.jpg" class="thumb-link" title="Solar101" data-size="1050x700">
+                                    <img src="images/how_solar_works.jpg" alt="">
                                 </a>
                             </div>
     
                             <div class="item-folio__text">
                                 <h3 class="item-folio__title">
-                                    Shutterbug
+                                    Solar101
                                 </h3>
                                 <p class="item-folio__cat">
-                                    Branding
+                                    Our Solar 101 beginners guide is the ideal starting point for anyone considering a solar power system who needs advice and information.
                                 </p>
                             </div>
     
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <!--<a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
                                 <i class="icon-link"></i>
-                            </a>
+                            </a> -->
     
-                            <div class="item-folio__caption">
+                           <!-- <div class="item-folio__caption">
                                 <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
+                            </div> -->
     
                         </div>
                     </div> <!-- end masonry__brick -->
@@ -387,151 +419,30 @@
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
-                                    <img src="images/portfolio/woodcraft.jpg" 
-                                         srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                                <a href="images/SolarPanelRecycling.png" class="thumb-link" title="Recycle" data-size="1050x700">
+                                    <img src="images/SolarPanelRecycling.png" alt="">
                                 </a>
                             </div>
     
                             <div class="item-folio__text">
                                 <h3 class="item-folio__title">
-                                    Woodcraft
+                                    How to recycle solar panel?
                                 </h3>
                                 <p class="item-folio__cat">
-                                    Web Design
+                                    Recycling solar panels is a relatively complex task because they contain many different types of materials.
                                 </p>
                             </div>
     
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                           <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
                                 <i class="icon-link"></i>
-                            </a>
+                            </a>-->
     
-                            <div class="item-folio__caption">
+                           <!-- <div class="item-folio__caption">
                                 <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
+                            </div>-->
     
                         </div>
-                    </div> <!-- end masonry__brick -->
-    
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
-                                    <img src="images/portfolio/the-beetle.jpg"
-                                         srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    The Beetle
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Development
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
-    
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-grow-green.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
-                                    <img src="images/portfolio/grow-green.jpg" 
-                                         srcset="images/portfolio/grow-green.jpg 1x, images/portfolio/grow-green@2x.jpg 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Grow Green
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Branding
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-guitarist.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
-                                    <img src="images/portfolio/guitarist.jpg" 
-                                         srcset="images/portfolio/guitarist.jpg 1x, images/portfolio/guitarist@2x.jpg 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Guitarist
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Design
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
-    
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-palmeira.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
-                                    <img src="images/portfolio/palmeira.jpg"
-                                         srcset="images/portfolio/palmeira.jpg 1x, images/portfolio/palmeira@2x.jpg 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Palmeira
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Design
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
+                     <!-- end masonry__brick -->
 
                 </div> <!-- end masonry -->
             </div> <!-- end col-full -->
