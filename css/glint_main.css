@@ -1262,6 +1262,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #18191C;
 }
 
+.display-2-align {
+
+}
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -2512,6 +2516,15 @@ html.no-csstransitions .home-content__main {
     margin-top: -.6rem;
 }
 
+.service-steps{
+    float: left;
+    color: #D65283;
+    font-size: 4.8rem;
+    margin-top: -.6rem;
+    margin-right: .8rem;
+
+}
+
 .services-list .service-negative-icon {
     float: left;
     color: rgba(0,0,0,0.1);
@@ -2568,6 +2581,8 @@ html.no-csstransitions .home-content__main {
         font-size: 4.5rem;
         float: none;
         margin-top: 0;
+
+
     }
 }
 
@@ -2609,7 +2624,7 @@ html.no-csstransitions .home-content__main {
 
 .s-works .intro-wrap {
     padding: 15rem 0 25.2rem;
-    background: #111111;
+    background: #FBF8F2;
 }
 
 .works-content {

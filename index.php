@@ -212,7 +212,42 @@
             </div>
         </div> <!-- end about-desc -->
 
-        <div class="row services-list block-1-2 block-tab-full">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-steps">
+                    <i class="fa fa-keyboard-o"></i>
+                    </div>
+
+
+                    <p class ="service-text"> Tell us about your home </p>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-steps">
+                        <i class="fa fa-clock-o"></i>
+
+                    </div>
+                    <div class="service-text">
+
+                    </div>
+                    <p> Get your best quotes in seconds </p>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="service-steps">
+                        <i class="fa fa-sun-o"></i>
+
+                    </div>
+                    <div class="service-text">
+
+                    </div>
+                    <p> Enjoy your hassle free solar energy </p>
+
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="row services-list block-1-2 block-tab-full">
 
         <div class="col-block service-item" data-aos="fade-up">
             <div class="service-icon">
@@ -375,7 +410,7 @@
                 
             <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
                 <div class="col-full">
-                    <h3 class="display-2 display-2--light">Learn more</h3>
+                    <h3 class="display-1 ">Learn more</h3>
                     <!-- <h1 class="display-2 display-2--light">We love what we do, check out some of our latest works</h1> -->
                 </div>
             </div> <!-- end section-header -->
@@ -455,15 +490,41 @@
     ================================================== -->
     <section id="clients" class="s-clients">
 
-        <div class="row section-header" data-aos="fade-up">
+        <!-- <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">Our Clients</h3>
-                <h1 class="display-2">Glint has been honored to
-                partner up with these clients</h1>
+                <h3 class="display-2 display-2--pink">Ready to start your solar project?</h3>
+                <h2 class="h3">Get your instant quote </h2>
             </div>
         </div> <!-- end section-header -->
+        <!--<a href =#0><button type="button" class="btn btn-outline-primary">Get Quote</button></a>
+        <a href = #0></a> <button type="button" class="btn btn-outline-secondary">Learn More</button></a> -->
 
-        <div class="row clients-outer" data-aos="fade-up">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="col-8">
+                    <h3 class="display-2 display-2--pink">Ready to start your solar project?</h3>
+                    <h2 class="h3">Get your instant quote </h2>
+                </div>
+                <div class="col-2">
+                    <a href =#0><button type="button" class="btn btn-outline-primary">Get Quote</button></a>
+
+                </div>
+                <div class="col-2">
+                    <a href = #0></a> <button type="button" class="btn btn-outline-secondary">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <!--<div class="row clients-outer" data-aos="fade-up">
             <div class="col-full">
                 <div class="clients">
                     
@@ -480,7 +541,7 @@
             </div> <!-- end col-full -->
         </div> <!-- end clients-outer -->
 
-        <div class="row clients-testimonials" data-aos="fade-up">
+        <!--<div class="row clients-testimonials" data-aos="fade-up">
             <div class="col-full">
                 <div class="testimonials">
 
