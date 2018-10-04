@@ -59,9 +59,9 @@
                 <ul class="header-nav__list">
                     <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
                     <li><a class="smoothscroll"  href="#about" title="insolar experience">Insolar Experience</a></li>
-                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
-                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
-                    <li><a class="smoothscroll"  href="#clients" title="clients">Clients</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="savings calculator">Savings Calculator</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="resources">Resources</a></li>
+                    <li><a class="smoothscroll"  href="#clients" title="login">Log In</a></li>
                     <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
                 </ul>
     
@@ -131,7 +131,7 @@
     <!--                    </a>-->
     <!--                </div>-->
                 </div>
-                <div class="col-md-4" id="call-to-action-form">
+                <div class="col-md-4 contact-content" id="call-to-action-form">
                     <h3 class="h6">Get a quote</h3>
 
                     <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
@@ -145,6 +145,9 @@
                             </div>
                             <div class="form-field">
                                 <input name="contactAddress" type="text" id="contactAddress" placeholder="Your Address" value="" class="full-width">
+                            </div>
+                            <div class="form-field">
+                                <input name="contactMonthlyBill" type="text" id="contactMonthlyBill" placeholder=" Your Monthly Electric Bill" value="" class="full-width">
                             </div>
                             <div class="form-field" id="form-submit">
                                 <button class="full-width btn--primary">Submit</button>
@@ -235,95 +238,97 @@
     </section> <!-- end s-about -->
 
 
-    <!-- services
+    <!-- Services
     ================================================== -->
     <section id='services' class="s-services">
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">What We Do</h3>
-                <h1 class="display-2">We’ve got everything you need to launch and grow your business</h1>
+                <h3 class="subhead">The Insolar difference</h3>
+                <h1 class="display-2">The most effective way to go solar</h1>
             </div>
         </div> <!-- end section-header -->
 
         <div class="row services-list block-1-2 block-tab-full">
 
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-paint-brush"></i>
+            <div class="col-block" data-aos="fade-up">
+                <div class="logo">
+                    <img src="images/insolar_dark_logo.png" alt="The Insolar logo for the solar company">
                 </div>
-                <div class="service-text">
-                    <h3 class="h2">Brand Identity</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="service-item">
+                        <div class="service-icon">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4 >Powered by AI</h4>
+                        </div>
+                    </li>
+                    <li class="service-item">
+                        <div class="service-icon">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4 >1,2,3 Sales Process</h4>
+                        </div>
+                    </li>
+                    <li class="service-item">
+                        <div class="service-icon">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4 >Most Affordable Prices</h4>
+                        </div>
+                    </li>
+                    <li class="service-item">
+                        <div class="service-icon">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4 >100% Transparent System</h4>
+                        </div>
+                    </li>
+                </ul>
             </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-group"></i>
+            <div class="col-block" data-aos="fade-up">
+                <div class="logo">
+                    <h4 class="h1">Others</h4>
                 </div>
-                <div class="service-text">
-                    <h3 class="h2">Illustration</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="service-item">
+                        <div class="service-negative-icon">
+                            <i class="fa fa-times-circle-o"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4 >Antiquated, and inefficient market places</h4>
+                        </div>
+                    </li>
+                    <li class="service-item">
+                        <div class="service-negative-icon">
+                            <i class="fa fa-times-circle-o"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4 >Long, time consuming sales processes</h4>
+                        </div>
+                    </li>
+                    <li class="service-item">
+                        <div class="service-negative-icon">
+                            <i class="fa fa-times-circle-o"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4 >Steep profit margins</h4>
+                        </div>
+                    </li>
+                    <li class="service-item">
+                        <div class="service-negative-icon">
+                            <i class="fa fa-times-circle-o"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4 >Rely on annoying phone calls and meetings</h4>
+                        </div>
+                    </li>
+                </ul>
             </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-megaphone"></i>
-                </div>  
-                <div class="service-text">
-                    <h3 class="h2">Marketing</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-earth"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Web Design</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-cube"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Packaging Design</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-    
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon"><i class="icon-lego-block"></i></div>
-                <div class="service-text">
-                    <h3 class="h2">Web Development</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
-                    </p>
-                </div>
-            </div>
-
         </div> <!-- end services-list -->
 
     </section> <!-- end s-services -->
@@ -623,113 +628,36 @@
         <div class="overlay"></div>
         <div class="contact__line"></div>
 
-        <div class="row section-header" data-aos="fade-up">
+        <div class="row section-header section-header-dark" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">Contact Us</h3>
-                <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+                <h3 class="subhead">Our Partners</h3>
+                <h2 class="display-2 display-2--light">Some of the great companies we work with</h2>
             </div>
         </div>
 
         <div class="row contact-content" data-aos="fade-up">
-            
-            <div class="contact-primary">
-
-                <h3 class="h6">Send Us A Message</h3>
-
-                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
-                    <fieldset>
-    
-                    <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div>
-                    <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
-                        <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
-                            <div class="s-loader">
-                                <div class="bounce1"></div>
-                                <div class="bounce2"></div>
-                                <div class="bounce3"></div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    </fieldset>
-                </form>
-
-                <!-- contact-warning -->
-                <div class="message-warning">
-                    Something went wrong. Please try again.
-                </div> 
-            
-                <!-- contact-success -->
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
-                </div>
-
-            </div> <!-- end contact-primary -->
-
-            <div class="contact-secondary">
-                <div class="contact-info">
-
-                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
-
-                    <div class="cinfo">
-                        <h5>Where to Find Us</h5>
-                        <p>
-                            1600 Amphitheatre Parkway<br>
-                            Mountain View, CA<br>
-                            94043 US
-                        </p>
-                    </div>
-
-                    <div class="cinfo">
-                        <h5>Email Us At</h5>
-                        <p>
-                            contact@glintsite.com<br>
-                            info@glintsite.com
-                        </p>
-                    </div>
-
-                    <div class="cinfo">
-                        <h5>Call Us At</h5>
-                        <p>
-                            Phone: (+63) 555 1212<br>
-                            Mobile: (+63) 555 0100<br>
-                            Fax: (+63) 555 0101
-                        </p>
-                    </div>
-
-                    <ul class="contact-social">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                        </li>
-                    </ul> <!-- end contact-social -->
-
-                </div> <!-- end contact-info -->
-            </div> <!-- end contact-secondary -->
-
+                <ul class="list-inline">
+                    <li class="list-inline-item logo">
+                        <img src="images/emphase_logo.png" alt="The logo of Enphase, a leading producer of solar monitoring software"
+                    </li>
+                    <li class="list-inline-item logo">
+                        <img src="images/divident_logo.png" alt="The logo of Divident, one of the leading letting companies in the United States"
+                    </li>
+                    <li class="list-inline-item logo">
+                        <img src="images/cleanfund_logo.png" alt="The logo of Cleanfund, one of the leading letting companies in the United States"
+                    </li>
+                </ul>
+                <ul class="list-inline">
+                    <li class="list-inline-item logo">
+                        <img src="images/pegasus_logo.png" alt="The logo of Pegasus Solar, a leading innovator on solar panels mounting systems"
+                    </li>
+                    <li class="list-inline-item logo">
+                        <img src="images/wunder_logo.png" alt="The logo of Wunder, one of the leading letting companies in the United States"
+                    </li>
+                    <li class="list-inline-item logo">
+                        <img src="images/sunpower_logo.png" alt="The logo of Sunpower, a leading innovator on solar panel technologies."
+                    </li>
+                </ul>
         </div> <!-- end contact-content -->
 
     </section> <!-- end s-contact -->
