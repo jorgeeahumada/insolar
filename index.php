@@ -197,7 +197,7 @@
     ================================================== -->
     <section id='about' class="s-about">
 
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="row section-header has-bottom-sep" >
             <div class="col-full">
 
                 <h3 class="display-1 ">Go Solar in three easy steps</h3>
@@ -249,7 +249,7 @@
 
         <!--<div class="row services-list block-1-2 block-tab-full">
 
-        <div class="col-block service-item" data-aos="fade-up">
+        <div class="col-block service-item" >
             <div class="service-icon">
                 <i class="fa fa-keyboard-o"></i>
             </div>
@@ -259,7 +259,7 @@
             </div>
         </div>
 
-        <div class="col-block service-item" data-aos="fade-up">
+        <div class="col-block service-item" >
             <div class="service-icon">
                 <i class="fa fa-clock-o"></i>
             </div>
@@ -269,7 +269,7 @@
             </div>
         </div>
 
-            <div class="col-block service-item" data-aos="fade-up">
+            <div class="col-block service-item">
                 <div class="service-icon">
                     <i class="fa fa-sun-o"></i>
                 </div>
@@ -408,7 +408,7 @@
 
         <div class="intro-wrap">
                 
-            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+            <div class="row section-header has-bottom-sep light-sep">
                 <div class="col-full">
                     <h3 class="display-1 ">Learn more</h3>
                     <!-- <h1 class="display-2 display-2--light">We love what we do, check out some of our latest works</h1> -->
@@ -421,7 +421,7 @@
             <div class="col-full masonry-wrap">
                 <div class="masonry">
     
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick">
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
@@ -450,7 +450,7 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick">
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
