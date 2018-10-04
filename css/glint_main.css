@@ -1819,6 +1819,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+    z-index:-1;
 }
 
 .no-js .s-home {
@@ -3445,6 +3446,7 @@ footer {
     line-height: 2;
     text-align: center;
     color: rgba(255, 255, 255, 0.3);
+    background-color: #010507;
 }
 
 footer h4 {

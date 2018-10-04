@@ -625,6 +625,8 @@
     ================================================== -->
     <section id="clients" class="s-clients">
 
+        <div class="contact__line"></div>
+
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
                 <h3 class="subhead">Our Clients</h3>
@@ -635,17 +637,16 @@
         <div class="row clients-outer" data-aos="fade-up">
             <div class="col-full">
                 <div class="clients">
-                    <a href="#0" title="Enphase Software Solutions" class="clients__slide"><img class="logo logo__partner" src="images/emphase_logo.png" alt="Logo for Enphase, the leading company on solar monitoring systems"/></a>
-                    <a href="#0" title="Dividend Financing" class="clients__slide"><img class="logo logo__partner" src="images/divident_logo.png" alt="Logo for Divident a National Financing agency" /></a>
-                    <a href="#0" title="CleanFund Financing" class="clients__slide"><img class="logo logo__partner" src="images/cleanfund_logo.png" alt="Logo for Cleanfund a National Financing agency specialized on clean energy solutions"/></a>
-                    <a href="#0" title="Pegasus Solar Mounting Systems" class="clients__slide"><img class="logo logo__partner" src="images/pegasus_logo.png" alt="Logo for Pegasus Solar, manufacturer of cutting edge mounting systems for solar panels"/></a>
-                    <a href="#0" title="Wunder Financing" class="clients__slide"><img class="logo logo__partner" src="images/wunder_logo.png" alt="Logo for Wunder a National Financing agency"/></a>
-                    <a href="#0" title="Sunpower Solar Panel Manufacturer" class="clients__slide"><img class="logo logo__partner" src="images/sunpower_logo.png" alt="Logo for Sunpower the leading national manufacturer of solar panel technologies"/></a>
+                    <a href="https://enphase.com/en-us" title="Enphase Software Solutions" class="clients__slide"><img class="logo logo__partner" src="images/emphase_logo.png" alt="Logo for Enphase, the leading company on solar monitoring systems"/></a>
+                    <a href="https://www.dividendfinance.com/solar-financing" title="Dividend Financing" class="clients__slide"><img class="logo logo__partner" src="images/divident_logo.png" alt="Logo for Divident a National Financing agency" /></a>
+                    <a href="https://www.cleanfund.com/our-financing/solarpace/" title="CleanFund Financing" class="clients__slide"><img class="logo logo__partner" src="images/cleanfund_logo.png" alt="Logo for Cleanfund a National Financing agency specialized on clean energy solutions"/></a>
+                    <a href="http://pegasussolar.com/" title="Pegasus Solar Mounting Systems" class="clients__slide"><img class="logo logo__partner" src="images/pegasus_logo.png" alt="Logo for Pegasus Solar, manufacturer of cutting edge mounting systems for solar panels"/></a>
+                    <a href="https://www.wundercapital.com/" title="Wunder Financing" class="clients__slide"><img class="logo logo__partner" src="images/wunder_logo.png" alt="Logo for Wunder a National Financing agency"/></a>
+                    <a href="https://us.sunpower.com/home-solar/solar-cell-technology-solutions/" title="Sunpower Solar Panel Manufacturer" class="clients__slide"><img class="logo logo__partner" src="images/sunpower_logo.png" alt="Logo for Sunpower the leading national manufacturer of solar panel technologies"/></a>
                 </div> <!-- end clients -->
             </div> <!-- end col-full -->
         </div> <!-- end clients-outer -->
     </section> <!-- end s-clients -->
-
 
     <!-- footer
     ================================================== -->
