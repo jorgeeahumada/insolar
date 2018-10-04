@@ -621,46 +621,30 @@
     </section> <!-- end s-clients -->
 
 
-    <!-- contact
+    <!-- clients
     ================================================== -->
-    <section id="contact" class="s-contact">
+    <section id="clients" class="s-clients">
 
-        <div class="overlay"></div>
-        <div class="contact__line"></div>
-
-        <div class="row section-header section-header-dark" data-aos="fade-up">
+        <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">Our Partners</h3>
-                <h2 class="display-2 display-2--light">Some of the great companies we work with</h2>
+                <h3 class="subhead">Our Clients</h3>
+                <h3 class="display-2 ">Some of the great people working with us</h3>
             </div>
-        </div>
+        </div> <!-- end section-header -->
 
-        <div class="row contact-content" data-aos="fade-up">
-                <ul class="list-inline">
-                    <li class="list-inline-item logo">
-                        <img src="images/emphase_logo.png" alt="The logo of Enphase, a leading producer of solar monitoring software"
-                    </li>
-                    <li class="list-inline-item logo">
-                        <img src="images/divident_logo.png" alt="The logo of Divident, one of the leading letting companies in the United States"
-                    </li>
-                    <li class="list-inline-item logo">
-                        <img src="images/cleanfund_logo.png" alt="The logo of Cleanfund, one of the leading letting companies in the United States"
-                    </li>
-                </ul>
-                <ul class="list-inline">
-                    <li class="list-inline-item logo">
-                        <img src="images/pegasus_logo.png" alt="The logo of Pegasus Solar, a leading innovator on solar panels mounting systems"
-                    </li>
-                    <li class="list-inline-item logo">
-                        <img src="images/wunder_logo.png" alt="The logo of Wunder, one of the leading letting companies in the United States"
-                    </li>
-                    <li class="list-inline-item logo">
-                        <img src="images/sunpower_logo.png" alt="The logo of Sunpower, a leading innovator on solar panel technologies."
-                    </li>
-                </ul>
-        </div> <!-- end contact-content -->
-
-    </section> <!-- end s-contact -->
+        <div class="row clients-outer" data-aos="fade-up">
+            <div class="col-full">
+                <div class="clients">
+                    <a href="#0" title="Enphase Software Solutions" class="clients__slide"><img class="logo logo__partner" src="images/emphase_logo.png" alt="Logo for Enphase, the leading company on solar monitoring systems"/></a>
+                    <a href="#0" title="Dividend Financing" class="clients__slide"><img class="logo logo__partner" src="images/divident_logo.png" alt="Logo for Divident a National Financing agency" /></a>
+                    <a href="#0" title="CleanFund Financing" class="clients__slide"><img class="logo logo__partner" src="images/cleanfund_logo.png" alt="Logo for Cleanfund a National Financing agency specialized on clean energy solutions"/></a>
+                    <a href="#0" title="Pegasus Solar Mounting Systems" class="clients__slide"><img class="logo logo__partner" src="images/pegasus_logo.png" alt="Logo for Pegasus Solar, manufacturer of cutting edge mounting systems for solar panels"/></a>
+                    <a href="#0" title="Wunder Financing" class="clients__slide"><img class="logo logo__partner" src="images/wunder_logo.png" alt="Logo for Wunder a National Financing agency"/></a>
+                    <a href="#0" title="Sunpower Solar Panel Manufacturer" class="clients__slide"><img class="logo logo__partner" src="images/sunpower_logo.png" alt="Logo for Sunpower the leading national manufacturer of solar panel technologies"/></a>
+                </div> <!-- end clients -->
+            </div> <!-- end col-full -->
+        </div> <!-- end clients-outer -->
+    </section> <!-- end s-clients -->
 
 
     <!-- footer
