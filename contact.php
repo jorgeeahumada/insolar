@@ -5,9 +5,9 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Contact - Philosophy</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <title>Contact Us | Insolar</title>
+    <meta name="description" content="Please contact us for any question or comments you may have. We are happy to help with everything from solar energy and solar panels questions to specific concerns about your system and experience. In Insolar we take pride in your satisfaction, just let us know and one of our customer service specials will be happy to help you.">
+    <meta name="author" content="Jorge Eduardo Ahumada Hernandez">
 
     <!-- mobile specific metas
     ================================================== -->
@@ -15,19 +15,28 @@
 
     <!-- CSS
     ================================================== -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--    The next ones may be able to be deleted, I'm not sure yet.-->
     <link rel="stylesheet" href="css/philosophy_base.css">
     <link rel="stylesheet" href="css/philosophy_vendor.css">
     <link rel="stylesheet" href="css/philosophy_main.css">
+<!--  ---------------------------------------------------------------    -->
+    <link rel="stylesheet" href="css/navigation_bar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/preloader.css">
 
     <!-- script
     ================================================== -->
+    <script src="js/glint_modernizr.js"></script>
+    <script src="js/glint_pace.min.js"></script>
+<!--    The next files might not be necessary, so we might be able to delete them-->
     <script src="js/philosophy_modernizr.js"></script>
     <script src="js/philosophy_pace.min.js"></script>
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="philosophy_favicon.ico" type="image/x-icon">
-    <link rel="icon" href="philosophy_favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/insolar_icon.png" type="image/png">
+    <link rel="icon" href="images/insolar_icon.png" type="image/png">
 
 </head>
 
@@ -35,90 +44,86 @@
 
     <!-- pageheader
     ================================================== -->
-    <div class="s-pageheader">
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
 
-        <header class="header">
-            <div class="header__content row">
+        <div class="header-logo">
+            <a class="site-logo" href="index.php">
+                <img src="images/insolar_logo.svg" alt="The Insolar logo, a leading solar energy company">
+            </a>
+        </div>
 
-                <div class="header__logo">
-                    <a class="logo" href="philosophy_main_page.php">
-                        <img src="images/logo.svg" alt="Homepage">
-                    </a>
-                </div> <!-- end header__logo -->
+        <nav class="header-nav">
 
-                <ul class="header__social">
-                    <li>
-                        <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+                <h3>Navigation</h3>
+
+                <ul class="header-nav__list">
+                    <li class="current">
+                        <a class="smoothscroll"  href="#home" title="home">Home</a>
                     </li>
                     <li>
-                        <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a class="smoothscroll"  href="#about" title="insolar experience">Insolar Experience</a>
                     </li>
                     <li>
-                        <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a class="smoothscroll"  href="#services" title="savings calculator">Savings Calculator</a>
+                    </li>
+                    <li class=" dropdown-container">
+                        <div class=" dropdown">
+                            <div>
+                                <a href="#about" class="dropbtn">Resources</a>
+                                <i class="fa fa-caret-down"></i>
+                            </div>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a class="smoothscroll" href="#home">Articles</a>
+                                <a class="smoothscroll" href="#services">News</a>
+                                <a class="smoothscroll" href="#clients">FAQ</a>
+                            </div>
+                        </div>
                     </li>
                     <li>
-                        <a href="#0"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        <a class="smoothscroll"  href="#clients" title="login">Log In</a>
                     </li>
-                </ul> <!-- end header__social -->
+                    <li>
+                        <a class="smoothscroll"  href="#contact" title="contact">Contact</a>
+                    </li>
+                </ul>
 
-                <a class="header__search-trigger" href="#0"></a>
+                <!--                This secition is not needed at the moment
+                                    <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>-->
 
-                <div class="header__search">
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                    </li>
+                </ul>
 
-                    <form role="search" method="get" class="header__search-form" action="#">
-                        <label>
-                            <span class="hide-content">Search for:</span>
-                            <input type="search" class="search-field" placeholder="Type Keywords" value="" name="s" title="Search for:" autocomplete="off">
-                        </label>
-                        <input type="submit" class="search-submit" value="Search">
-                    </form>
-        
-                    <a href="#0" title="Close Search" class="header__overlay-close">Close</a>
+            </div> <!-- end header-nav__content -->
 
-                </div>  <!-- end header__search -->
+        </nav>  <!-- end header-nav -->
 
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
 
-                <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
+    </header> <!-- end s-header -->
 
-                <nav class="header__nav-wrap">
-
-                    <h2 class="header__nav-heading h6">Site Navigation</h2>
-
-                    <ul class="header__nav">
-                        <li><a href="philosophy_main_page.php" title="">Home</a></li>
-                        <li class="has-children">
-                            <a href="#0" title="">Categories</a>
-                            <ul class="sub-menu">
-                            <li><a href="category.php">Lifestyle</a></li>
-                            <li><a href="category.php">Health</a></li>
-                            <li><a href="category.php">Family</a></li>
-                            <li><a href="category.php">Management</a></li>
-                            <li><a href="category.php">Travel</a></li>
-                            <li><a href="category.php">Work</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-children">
-                            <a href="#0" title="">Blog</a>
-                            <ul class="sub-menu">
-                            <li><a href="single-video.php">Video Post</a></li>
-                            <li><a href="single-audio.php">Audio Post</a></li>
-                            <li><a href="single-gallery.php">Gallery Post</a></li>
-                            <li><a href="single-standard.php">Standard Post</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="style-guide.php" title="">Styles</a></li>
-                        <li><a href="about.php" title="">About</a></li>
-                        <li class="current"><a href="contact.php" title="">Contact</a></li>
-                    </ul> <!-- end header__nav -->
-
-                    <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
-
-                </nav> <!-- end header__nav-wrap -->
-
-            </div> <!-- header-content -->
-        </header> <!-- header -->
-
-    </div> <!-- end s-pageheader -->
 
 
     <!-- s-content
@@ -326,117 +331,26 @@
     </section> <!-- end s-extra -->
 
 
-    <!-- s-footer
+    <!-- footer
     ================================================== -->
-    <footer class="s-footer">
-
-        <div class="s-footer__main">
-            <div class="row">
-                
-                <div class="col-two md-four mob-full s-footer__sitelinks">
-                        
-                    <h4>Quick Links</h4>
-
-                    <ul class="s-footer__linklist">
-                        <li><a href="#0">Home</a></li>
-                        <li><a href="#0">Blog</a></li>
-                        <li><a href="#0">Styles</a></li>
-                        <li><a href="#0">About</a></li>
-                        <li><a href="#0">Contact</a></li>
-                        <li><a href="#0">Privacy Policy</a></li>
-                    </ul>
-
-                </div> <!-- end s-footer__sitelinks -->
-
-                <div class="col-two md-four mob-full s-footer__archives">
-                        
-                    <h4>Archives</h4>
-
-                    <ul class="s-footer__linklist">
-                        <li><a href="#0">January 2018</a></li>
-                        <li><a href="#0">December 2017</a></li>
-                        <li><a href="#0">November 2017</a></li>
-                        <li><a href="#0">October 2017</a></li>
-                        <li><a href="#0">September 2017</a></li>
-                        <li><a href="#0">August 2017</a></li>
-                    </ul>
-
-                </div> <!-- end s-footer__archives -->
-
-                <div class="col-two md-four mob-full s-footer__social">
-                        
-                    <h4>Social</h4>
-
-                    <ul class="s-footer__linklist">
-                        <li><a href="#0">Facebook</a></li>
-                        <li><a href="#0">Instagram</a></li>
-                        <li><a href="#0">Twitter</a></li>
-                        <li><a href="#0">Pinterest</a></li>
-                        <li><a href="#0">Google+</a></li>
-                        <li><a href="#0">LinkedIn</a></li>
-                    </ul>
-
-                </div> <!-- end s-footer__social -->
-
-                <div class="col-five md-full end s-footer__subscribe">
-                        
-                    <h4>Our Newsletter</h4>
-
-                    <p>Sit vel delectus amet officiis repudiandae est voluptatem. Tempora maxime provident nisi et fuga et enim exercitationem ipsam. Culpa consequatur occaecati.</p>
-
-                    <div class="subscribe-form">
-                        <form id="mc-form" class="group" novalidate="true">
-
-                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
-                
-                            <input type="submit" name="subscribe" value="Send">
-                
-                            <label for="mc-email" class="subscribe-message"></label>
-                
-                        </form>
-                    </div>
-
-                </div> <!-- end s-footer__subscribe -->
-
-            </div>
-        </div> <!-- end s-footer__main -->
-
-        <div class="s-footer__bottom">
-            <div class="row">
-                <div class="col-full">
-                    <div class="s-footer__copyright">
-                        <span>© Copyright Philosophy 2018</span> 
-                        <span>Site Template by <a href="https://colorlib.com/">Colorlib</a></span>
-                    </div>
-
-                    <div class="go-top">
-                        <a class="smoothscroll" title="Back to Top" href="#top"></a>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- end s-footer__bottom -->
-
-    </footer> <!-- end s-footer -->
-
-
+    <?php
+        include 'footer.php';
+    ?>
     <!-- preloader
     ================================================== -->
-    <div id="preloader">
-        <div id="loader">
-            <div class="line-scale">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-    </div>
+    <?php
+        include 'preloader.php';
+    ?>
 
 
     <!-- Java Script
     ================================================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/glint_plugins.js"></script>
+    <script src="js/glint_main.js"></script>
+<!--The next files might not be necessary so we might be able to delete them -->
     <script src="js/philosophy_plugins.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="js/philosophy_main.js"></script>
