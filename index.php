@@ -57,12 +57,34 @@
                 <h3>Navigation</h3>
                 
                 <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll"  href="#about" title="insolar experience">Insolar Experience</a></li>
-                    <li><a class="smoothscroll"  href="#services" title="savings calculator">Savings Calculator</a></li>
-                    <li><a class="smoothscroll"  href="#works" title="resources">Resources</a></li>
-                    <li><a class="smoothscroll"  href="#clients" title="login">Log In</a></li>
-                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                    <li class="current">
+                        <a class="smoothscroll"  href="#home" title="home">Home</a>
+                    </li>
+                    <li>
+                        <a class="smoothscroll"  href="#about" title="insolar experience">Insolar Experience</a>
+                    </li>
+                    <li>
+                        <a class="smoothscroll"  href="#services" title="savings calculator">Savings Calculator</a>
+                    </li>
+                    <li class=" dropdown-container">
+                        <div class=" dropdown">
+                            <div>
+                                <a href="#about" class="dropbtn">Resources</a>
+                                <i class="fa fa-caret-down"></i>
+                            </div>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a class="smoothscroll" href="#home">Articles</a>
+                                <a class="smoothscroll" href="#services">News</a>
+                                <a class="smoothscroll" href="#clients">FAQ</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="smoothscroll"  href="#clients" title="login">Log In</a>
+                    </li>
+                    <li>
+                        <a class="smoothscroll"  href="#contact" title="contact">Contact</a>
+                    </li>
                 </ul>
     
 <!--                This secition is not needed at the moment
@@ -115,6 +137,7 @@
             <div class="row home-content__main">
 
                  <div class="col-md-8" id="hero_banner">
+
                     <h3>Welcome to Insolar</h3>
 
                     <h1>
@@ -213,6 +236,7 @@
         </div> <!-- end about-desc -->
 
         <div class="container">
+
             <div class="row">
                 <div class="col-md-4">
                     <div class="service-steps">
@@ -597,7 +621,7 @@
     ================================================== -->
     <section id="clients" class="s-clients">
 
-        <div class="contact__line"></div>
+        <div class="clients__line"></div>
 
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">

@@ -1581,16 +1581,67 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .header-nav__list li {
     padding-left: 0;
     line-height: 4.5rem;
+    width: 217px;
 }
 
 .header-nav__list a,
 .header-nav__list a:visited {
-    color:#ffffff
+    color:#ffffff;
+    padding-left: 1.5rem;
 }
 
 .header-nav__list a:hover {
     color: #BCDB52;
 }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width:100%;
+}
+
+.dropdown i{
+
+}
+
+.dropbtn{
+    float:left;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #D65283;
+    width: 217px;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #ffffff;
+    padding-left: 2.5rem;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    color: #BCDB52;
+    text-decoration: underline;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display:block;
+}
+
+.dropdown-container.open{
+   background-color: #D65283;
+}
+
+
 
 .header-nav__social {
     list-style: none;
@@ -2419,7 +2470,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 700px) {
     .about__line {
-        right: 5.5rem;
+        display:none;
     }
 }
 
@@ -2457,7 +2508,7 @@ html.no-csstransitions .home-content__main {
         border: none;
     }
     .about__line {
-        height: 7.2rem;
+        display:none;
     }
 }
 
@@ -2882,6 +2933,25 @@ html.no-csstransitions .home-content__main {
     bottom: 0;
     margin-left: -1px;
 }
+
+/* ===================================================================
+ * # responsive:
+ * # call to action banner
+ *
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width: 700px) {
+    .call-to-action__line {
+        display:none;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .call-to-action__line {
+        display:none;
+    }
+}
+
 /* ===================================================================
  * # clients
  *
@@ -2892,6 +2962,17 @@ html.no-csstransitions .home-content__main {
     background-color: #FFFFFF;
     color: #010507;
     position: relative;
+}
+
+.clients__line {
+    display: block;
+    width: 2px;
+    height: 10.2rem;
+    background-color: #D65283;
+    position: absolute;
+    right: 7.2rem;
+    top: 0;
+    margin-left: -1px;
 }
 
 
@@ -3061,6 +3142,9 @@ html.no-csstransitions .home-content__main {
     .clients-testimonials .testimonials .slick-next {
         right: 0;
     }
+    .clients__line{
+        display:none;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -3076,6 +3160,9 @@ html.no-csstransitions .home-content__main {
     .clients-testimonials .testimonials p {
         font-size: 2rem;
     }
+    .clients_line{
+        display:none;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -3083,8 +3170,6 @@ html.no-csstransitions .home-content__main {
         font-size: 1.9rem;
     }
 }
-
-
 
 /* ===================================================================
  * # contact 

@@ -88,12 +88,12 @@
         });
 
         // close menu clicking outside the menu itself
-        siteBody.on('click', function(e){
-            if( !$(e.target).is('.header-nav, .header-nav__content, .header-menu-toggle, .header-menu-toggle span') ) {
-                // menuTrigger.removeClass('is-clicked');
-                siteBody.removeClass('menu-is-open');
-            }
-        });
+        // siteBody.on('click', function(e){
+        //      if( !$(e.target).is('.header-nav, .header-nav__content, .header-menu-toggle, .header-menu-toggle span') ) {
+        //         // menuTrigger.removeClass('is-clicked');
+        //         siteBody.removeClass('menu-is-open');
+        //     }
+        // });
 
     };
 
@@ -447,15 +447,53 @@
         });
     };
 
-
-   /* Initialize
+    /* Dropdown Menu
     * ------------------------------------------------------ */
+
+    var clDropDown = function() {
+
+        var dropDownLink     = $('.dropbtn'),
+            listItem        = $('.dropdown-container'),
+            content          = $('.dropdown-content')
+
+        // open-close menu by clicking on the menu icon
+        dropDownLink.on('click', function(e){
+            e.preventDefault();
+            // menuTrigger.toggleClass('is-clicked');
+           content.toggleClass('show');
+           listItem.toggleClass('open');
+        });
+
+         // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var listItems = document.getElementsByClassName("dropdown-container");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    var openListItems = listItems[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                    if (openListItems.classList.contains('open')){
+                        openListItems.classList.remove('open');
+                    }
+                }
+            }
+        }
+
+    };
+
+    /* Initialize
+     * ------------------------------------------------------ */
     (function ssInit() {
         
         clPreloader();
         clMenuOnScrolldown();
         clOffCanvas();
-        // clPhotoswipe();
+        clDropDown();
         clStatCount();
         clMasonryFolio();
         clSlickSlider();
