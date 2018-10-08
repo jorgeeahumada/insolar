@@ -10,9 +10,9 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Insolar, making solar easy</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <title>Insolar | Making Solar Easy</title>
+    <meta name="description" content="Get to know the Insolar difference, the easiest way to go solar at home. In a few simple steps, the exclusive Insolar AI technology will help you find the best installers and products in your area. The Insolar Artificial Intelligence makes getting solar panels in your home easy, and affordable. Start saving now!">
+    <meta name="author" content="Jorge Eduardo Ahumada Hernandez">
 
     <!-- mobile specific metas
     ================================================== -->
@@ -32,8 +32,8 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="glint_favicon.ico" type="image/x-icon">
-    <link rel="icon" href="glint_favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/insolar_icon.png"">
+    <link rel="icon" href="images/insolar_icon.png" type="">
 
 </head>
 
@@ -45,7 +45,7 @@
 
         <div class="header-logo">
             <a class="site-logo" href="index.php">
-                <img src="images/insolar_logo.png" alt="Homepage">
+                <img src="images/insolar_logo.svg" alt="The Insolar logo, a leading solar energy company">
             </a>
         </div>
 
@@ -425,7 +425,7 @@
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
-                                <a href="images/how_solar_works.jpg" class="thumb-link" title="Solar101" data-size="1050x700">
+                                <a href="#0" title="Solar101" data-size="1050x700">
                                     <img src="images/how_solar_works.jpg" alt="">
                                 </a>
                             </div>
@@ -454,7 +454,7 @@
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
-                                <a href="images/SolarPanelRecycling.png" class="thumb-link" title="Recycle" data-size="1050x700">
+                                <a href="#0" title="Recycle"  data-size="1050x700">
                                     <img src="images/SolarPanelRecycling.png" alt="">
                                 </a>
                             </div>
@@ -486,9 +486,9 @@
     </section> <!-- end s-works -->
 
 
-    <!-- clients
+    <!-- call-to-action-banner
     ================================================== -->
-    <section id="clients" class="s-clients">
+    <section id="call-to-action-banner" class="s-call-to-action-banners">
 
         <!-- <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
@@ -501,16 +501,16 @@
 
         <div class="container" data-aos="fade-up">
             <div class="row">
-                <div class="col-8">
-                    <h3 class="display-2 display-2--pink">Ready to start your solar project?</h3>
+                <div class="col-md-6" >
+                    <h3 class="display-2 display-2--light">Ready to start your solar project?</h3>
                     <h2 class="h3">Get your instant quote </h2>
                 </div>
-                <div class="col-2">
-                    <a href =#0><button type="button" class="btn btn-outline-primary">Get Quote</button></a>
+                <div class="col-md-3 vertical-align-component" >
+                    <a href=#0" type="button" class="btn btn--primary">Get Quote</a>
 
                 </div>
-                <div class="col-2">
-                    <a href = #0></a> <button type="button" class="btn btn-outline-secondary">Learn More</button></a>
+                <div class="col-md-3 vertical-align-component">
+                    <a href="#0" type="button" class="btn btn--primary">Learn More</a>
                 </div>
             </div>
         </div>
@@ -538,8 +538,8 @@
                     <a href="#0" title="" class="clients__slide"><img src="images/clients/magento.png" /></a>
                      
                 </div> <!-- end clients -->
-            </div> <!-- end col-full -->
-        </div> <!-- end clients-outer -->
+<!--            </div> <!-- end col-full -->
+<!--        </div> <!-- end clients-outer -->
 
         <!--<div class="row clients-testimonials" data-aos="fade-up">
             <div class="col-full">
@@ -587,9 +587,9 @@
 
                 </div><!-- end testimonials -->
                 
-            </div> <!-- end col-full -->
-        </div> <!-- end client-testimonials -->
-
+<!--            </div> <!-- end col-full -->
+<!--        </div> <!-- end client-testimonials -->
+        <div class="call-to-action__line"></div>
     </section> <!-- end s-clients -->
 
 
@@ -609,12 +609,12 @@
         <div class="row clients-outer" data-aos="fade-up">
             <div class="col-full">
                 <div class="clients">
-                    <a href="https://enphase.com/en-us" title="Enphase Software Solutions" class="clients__slide"><img class="logo logo__partner" src="images/emphase_logo.png" alt="Logo for Enphase, the leading company on solar monitoring systems"/></a>
-                    <a href="https://www.dividendfinance.com/solar-financing" title="Dividend Financing" class="clients__slide"><img class="logo logo__partner" src="images/divident_logo.png" alt="Logo for Divident a National Financing agency" /></a>
-                    <a href="https://www.cleanfund.com/our-financing/solarpace/" title="CleanFund Financing" class="clients__slide"><img class="logo logo__partner" src="images/cleanfund_logo.png" alt="Logo for Cleanfund a National Financing agency specialized on clean energy solutions"/></a>
-                    <a href="http://pegasussolar.com/" title="Pegasus Solar Mounting Systems" class="clients__slide"><img class="logo logo__partner" src="images/pegasus_logo.png" alt="Logo for Pegasus Solar, manufacturer of cutting edge mounting systems for solar panels"/></a>
-                    <a href="https://www.wundercapital.com/" title="Wunder Financing" class="clients__slide"><img class="logo logo__partner" src="images/wunder_logo.png" alt="Logo for Wunder a National Financing agency"/></a>
-                    <a href="https://us.sunpower.com/home-solar/solar-cell-technology-solutions/" title="Sunpower Solar Panel Manufacturer" class="clients__slide"><img class="logo logo__partner" src="images/sunpower_logo.png" alt="Logo for Sunpower the leading national manufacturer of solar panel technologies"/></a>
+                    <a href="https://enphase.com/en-us" title="Enphase Software Solutions" class="clients__slide vertical-align-component"><img class="logo logo__partner" src="images/emphase_logo.svg" alt="Logo for Enphase, the leading company on solar monitoring systems"/></a>
+                    <a href="https://www.dividendfinance.com/solar-financing" title="Dividend Financing" class="clients__slide vertical-align-component"><img class="logo logo__partner" src="images/divident_logo.png" alt="Logo for Divident a National Financing agency" /></a>
+                    <a href="https://www.cleanfund.com/our-financing/solarpace/" title="CleanFund Financing" class="clients__slide vertical-align-component"><img class="logo logo__partner" src="images/cleanfund_logo.png" alt="Logo for Cleanfund a National Financing agency specialized on clean energy solutions"/></a>
+                    <a href="http://pegasussolar.com/" title="Pegasus Solar Mounting Systems" class="clients__slide vertical-align-component"><img class="logo logo__partner" src="images/pegasus_logo.png" alt="Logo for Pegasus Solar, manufacturer of cutting edge mounting systems for solar panels"/></a>
+                    <a href="https://www.wundercapital.com/" title="Wunder Financing" class="clients__slide vertical-align-component vertical-align-component"><img class="logo logo__partner" src="images/wunder_logo.png" alt="Logo for Wunder a National Financing agency"/></a>
+                    <a href="https://us.sunpower.com/home-solar/solar-cell-technology-solutions/" title="Sunpower Solar Panel Manufacturer" class="clients__slide vertical-align-component"><img class="logo logo__partner" src="images/sunpower_logo.svg" alt="Logo for Sunpower the leading national manufacturer of solar panel technologies"/></a>
                 </div> <!-- end clients -->
             </div> <!-- end col-full -->
         </div> <!-- end clients-outer -->
@@ -623,27 +623,75 @@
     <!-- footer
     ================================================== -->
     <footer>
-
+        <div class="logo footer-logo">
+            <img src="images/insolar_logo.png" alt="The Insolar logo, a cutting edge solar energy company">
+        </div>
         <div class="row footer-main">
-
-            <div class="col-six tab-full left footer-desc">
-
-                <div class="footer-logo"></div>
-                Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.
-
+            <div class="col-md">
+                <ul class="list-unstyled">
+                    <li>
+                       <img src="images/office-satellite-view.png" alt="A satellite view of the Insolar office, inside of the UCI Applied Innovation Laboratory"
+                    </li>
+                    <li>
+                        5141 California Ave. #200, Irvine, CA 92617, United States
+                    </li>
+                    <li>
+                        <a href="mailto:support@getinsolar.com?subject=Insolar%20Support%20Question">support@getinsolar.com</a>
+                    </li>
+                </ul>
             </div>
-
-            <div class="col-six tab-full right footer-subscribe">
-
-                <h4>Get Notified</h4>
-                <p>Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
-
-                <div class="subscribe-form">
-                    <form id="mc-form" class="group" novalidate="true">
-                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
-                        <input type="submit" name="subscribe" value="Subscribe">
-                        <label for="mc-email" class="subscribe-message"></label>
-                    </form>
+            <div class="col-md">
+                <ul class="list-unstyled">
+                    <li>
+                        Insolar
+                    </li>
+                    <li>
+                        <a href="#0">Home</a>
+                    </li>
+                    <li>
+                        <a href="#0">About</a>
+                    </li>
+                    <li>
+                        <a href="#0">Insolar Experience</a>
+                    </li>
+                    <li>
+                        <a href="#0">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md">
+                <ul class="list-unstyled">
+                    <li>
+                        Resources
+                    </li>
+                    <li>
+                        <a href="#0">Solar Calculator</a>
+                    </li>
+                    <li>
+                        <a href="#0">Articles</a>
+                    </li>
+                    <li>
+                        <a href="#0">News</a>
+                    </li>
+                    <li>
+                        <a href="#0">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md">
+                <ul class="list-unstyled">
+                    <li>
+                        Work With Us
+                    </li>
+                    <li>
+                        <a href="#0">Partners</a>
+                    </li>
+                    <li>
+                        <a href="#0">Installers</a>
+                    </li>
+                </ul>
+                <div>
+                    <a type="button" class="btn btn--primary" href="#0">Get a Quote</a>
                 </div>
 
             </div>
@@ -654,8 +702,8 @@
 
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>© Copyright Glint 2017</span> 
-                    <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>	
+                    <span>© Copyright Glint 2017</span>
+                    <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>
                 </div>
 
                 <div class="go-top">
