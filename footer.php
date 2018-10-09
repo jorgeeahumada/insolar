@@ -74,7 +74,7 @@
                     <a href="#0">Partners</a>
                 </li>
                 <li>
-                    <a href="#0">Installers</a>
+                    <a href="installers.php">Installers</a>
                 </li>
             </ul>
             <div>

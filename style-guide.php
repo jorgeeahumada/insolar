@@ -119,7 +119,7 @@
                             </ul>
                         </li>
                         <li><a href="style-guide.php" title="">Styles</a></li>
-                        <li><a href="about.php" title="">About</a></li>
+                        <li><a href="installers.php" title="">About</a></li>
                         <li><a href="contact.php" title="">Contact</a></li>
                     </ul> <!-- end header__nav -->
 
