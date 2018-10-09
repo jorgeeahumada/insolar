@@ -46,22 +46,23 @@
 
 
    /* Menu on Scrolldown
+    * The next section darkens the menu on scroll, for now I'm just going to keep it dark.
     * ------------------------------------------------------ */
-    var clMenuOnScrolldown = function() {
-        
-        var menuTrigger = $('.header-menu-toggle');
-
-        $WIN.on('scroll', function() {
-
-            if ($WIN.scrollTop() > 150) {
-                menuTrigger.addClass('opaque');
-            }
-            else {
-                menuTrigger.removeClass('opaque');
-            }
-
-        });
-    };
+    // var clMenuOnScrolldown = function() {
+    //
+    //     var menuTrigger = $('.header-menu-toggle');
+    //
+    //     $WIN.on('scroll', function() {
+    //
+    //         if ($WIN.scrollTop() > 150) {
+    //             menuTrigger.addClass('opaque');
+    //         }
+    //         else {
+    //             menuTrigger.removeClass('opaque');
+    //         }
+    //
+    //     });
+    // };
 
 
    /* OffCanvas Menu
@@ -491,7 +492,7 @@
     (function ssInit() {
         
         clPreloader();
-        clMenuOnScrolldown();
+        // clMenuOnScrolldown();
         clOffCanvas();
         clDropDown();
         clStatCount();

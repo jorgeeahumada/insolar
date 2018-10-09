@@ -24,6 +24,9 @@
     <link rel="stylesheet" href="css/glint_base.css">
     <link rel="stylesheet" href="css/glint_vendor.css">
     <link rel="stylesheet" href="css/glint_main.css">
+    <link rel="stylesheet" href="css/navigation_bar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/preloader.css">
 
     <!-- script
     ================================================== -->
@@ -41,84 +44,9 @@
 
     <!-- header
     ================================================== -->
-    <header class="s-header">
-
-        <div class="header-logo">
-            <a class="site-logo" href="index.php">
-                <img src="images/insolar_logo.svg" alt="The Insolar logo, a leading solar energy company">
-            </a>
-        </div>
-
-        <nav class="header-nav">
-
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
-
-            <div class="header-nav__content">
-                <h3>Navigation</h3>
-                
-                <ul class="header-nav__list">
-                    <li class="current">
-                        <a class="smoothscroll"  href="#home" title="home">Home</a>
-                    </li>
-                    <li>
-                        <a class="smoothscroll"  href="#about" title="insolar experience">Insolar Experience</a>
-                    </li>
-                    <li>
-                        <a class="smoothscroll"  href="#services" title="savings calculator">Savings Calculator</a>
-                    </li>
-                    <li class=" dropdown-container">
-                        <div class=" dropdown">
-                            <div>
-                                <a href="#about" class="dropbtn">Resources</a>
-                                <i class="fa fa-caret-down"></i>
-                            </div>
-                            <div id="myDropdown" class="dropdown-content">
-                                <a class="smoothscroll" href="#home">Articles</a>
-                                <a class="smoothscroll" href="#services">News</a>
-                                <a class="smoothscroll" href="#clients">FAQ</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <a class="smoothscroll"  href="#clients" title="login">Log In</a>
-                    </li>
-                    <li>
-                        <a class="smoothscroll"  href="#contact" title="contact">Contact</a>
-                    </li>
-                </ul>
-    
-<!--                This secition is not needed at the moment
-                    <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>-->
-    
-                <ul class="header-nav__social">
-                    <li>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-behance"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                    </li>
-                </ul>
-
-            </div> <!-- end header-nav__content -->
-
-        </nav>  <!-- end header-nav -->
-
-        <a class="header-menu-toggle" href="#0">
-            <span class="header-menu-text">Menu</span>
-            <span class="header-menu-icon"></span>
-        </a>
-
-    </header> <!-- end s-header -->
-
+        <?php
+            include 'navigation_bar.php';
+        ?>
 
     <!-- home
     ================================================== -->
@@ -646,98 +574,9 @@
 
     <!-- footer
     ================================================== -->
-    <footer>
-        <div class="logo footer-logo">
-            <img src="images/insolar_logo.png" alt="The Insolar logo, a cutting edge solar energy company">
-        </div>
-        <div class="row footer-main">
-            <div class="col-md">
-                <ul class="list-unstyled">
-                    <li>
-                       <img src="images/office-satellite-view.png" alt="A satellite view of the Insolar office, inside of the UCI Applied Innovation Laboratory"
-                    </li>
-                    <li>
-                        5141 California Ave. #200, Irvine, CA 92617, United States
-                    </li>
-                    <li>
-                        <a href="mailto:support@getinsolar.com?subject=Insolar%20Support%20Question">support@getinsolar.com</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md">
-                <ul class="list-unstyled">
-                    <li>
-                        Insolar
-                    </li>
-                    <li>
-                        <a href="#0">Home</a>
-                    </li>
-                    <li>
-                        <a href="#0">About</a>
-                    </li>
-                    <li>
-                        <a href="#0">Insolar Experience</a>
-                    </li>
-                    <li>
-                        <a href="#0">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md">
-                <ul class="list-unstyled">
-                    <li>
-                        Resources
-                    </li>
-                    <li>
-                        <a href="#0">Solar Calculator</a>
-                    </li>
-                    <li>
-                        <a href="#0">Articles</a>
-                    </li>
-                    <li>
-                        <a href="#0">News</a>
-                    </li>
-                    <li>
-                        <a href="#0">FAQ</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md">
-                <ul class="list-unstyled">
-                    <li>
-                        Work With Us
-                    </li>
-                    <li>
-                        <a href="#0">Partners</a>
-                    </li>
-                    <li>
-                        <a href="#0">Installers</a>
-                    </li>
-                </ul>
-                <div>
-                    <a type="button" class="btn btn--primary" href="#0">Get a Quote</a>
-                </div>
-
-            </div>
-
-        </div> <!-- end footer-main -->
-
-        <div class="row footer-bottom">
-
-            <div class="col-twelve">
-                <div class="copyright">
-                    <span>© Copyright Glint 2017</span>
-                    <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>
-                </div>
-
-                <div class="go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
-                </div>
-            </div>
-
-        </div> <!-- end footer-bottom -->
-
-    </footer> <!-- end footer -->
+    <?php
+        include 'footer.php';
+    ?>
 
 
     <!-- photoswipe background
@@ -782,17 +621,9 @@
 
     <!-- preloader
     ================================================== -->
-    <div id="preloader">
-        <div id="loader">
-            <div class="line-scale-pulse-out">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-    </div>
+    <?php
+        include 'preloader.php';
+    ?>
 
 
     <!-- Java Script
