@@ -89,14 +89,18 @@ body {
 /* ------------------------------------------------------------------- 
  * ## links
  * ------------------------------------------------------------------- */
-a {
-    color: #0087cc;
+a{
+    color: #18191C;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
+a.link__light{
+    color:#ffffff;
+}
+
 a:hover, a:focus, a:active {
-    color: #39b54a;
+    color: #BCDB52;
 }
 
 a:hover, a:active {
@@ -109,6 +113,14 @@ a:hover, a:active {
  * # typography & general theme styles
  * 
  * ------------------------------------------------------------------- */
+.color__pink{
+    color:#D65283;
+}
+
+.color__green{
+    color:#BCDB52;
+}
+
 h1, h2, h3, h4, h5, h6, 
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "work-sans", sans-serif;
@@ -545,7 +557,7 @@ select {
     border: 0;
     outline: none;
     color: #333333;
-    font-family: "montserrat-light", sans-serif;
+    font-family: "roboto", sans-serif;
     font-size: 1.4rem;
     line-height: 3rem;
     max-width: 100%;
@@ -624,8 +636,8 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-    color: #18191C;
-    border-bottom: 2px solid black;
+    color: #FFFFFF;
+    border-bottom: 1px solid #D65283;
 }
 
 label, legend {

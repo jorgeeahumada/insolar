@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="css/philosophy_vendor.css">
     <link rel="stylesheet" href="css/philosophy_main.css">
 <!--  ---------------------------------------------------------------    -->
+    <link rel="stylesheet" href="css/glint_base.css">
+    <link rel="stylesheet" href="css/glint_vendor.css">
+    <link rel="stylesheet" href="css/glint_main.css">
     <link rel="stylesheet" href="css/navigation_bar.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/preloader.css">
@@ -57,8 +60,8 @@
         <div class="row">
 
             <div class="s-content__header col-full">
-                <h1 class="s-content__header-title">
-                    Feel Free To Contact Us.
+                <h1 class="display-1">
+                    We'd love to hear from you!
                 </h1>
             </div> <!-- end s-content__header -->
     
@@ -71,57 +74,47 @@
             </div> <!-- end s-content__media -->
 
             <div class="col-full s-content__main">
-
-                <p class="lead">Lorem ipsum Deserunt est dolore Ut Excepteur nulla occaecat magna occaecat Excepteur nisi esse veniam dolor consectetur minim qui nisi esse deserunt commodo ea enim ullamco non voluptate consectetur minim aliquip Ut incididunt amet ut cupidatat.</p>
-                
-                <p>Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit id fugiat enim mollit amet anim veniam dolor dolor irure velit commodo cillum sit nulla ullamco magna amet magna cupidatat qui labore cillum sit in tempor veniam consequat non laborum adipisicing aliqua ea nisi sint ut quis proident ullamco ut dolore culpa occaecat ut laboris in sit minim cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in adipisicing in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.
-                </p>
-
                 <div class="row">
                     <div class="col-six tab-full">
-                        <h3>Where to Find Us</h3>
+                        <h3 class="subhead">Where to Find Us</h3>
 
                         <p>
-                        1600 Amphitheatre Parkway<br>
-                        Mountain View, CA<br>
-                        94043 US
+                            5141 California Ave #250<br>
+                            Irvine, CA 92617<br>
+                            United States
                         </p>
 
                     </div>
 
                     <div class="col-six tab-full">
-                        <h3>Contact Info</h3>
+                        <h3 class="subhead">Contact Info</h3>
 
-                        <p>contact@philosophywebsite.com<br>
-                        info@philosophywebsite.com <br>
-                        Phone: (+1) 123 456
-                        </p>
+                        <a href="mailto:support@getinsolar.com?subject=Insolar%20Support%20Question">support@getinsolar.com</a>
 
                     </div>
                 </div> <!-- end row -->
 
                 <h3>Say Hello.</h3>
 
-                <form name="cForm" id="cForm" method="post" action="">
+
+                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
                     <fieldset>
 
                         <div class="form-field">
-                            <input name="cName" type="text" id="cName" class="full-width" placeholder="Your Name" value="">
+                            <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
                         </div>
-
                         <div class="form-field">
-                            <input name="cEmail" type="text" id="cEmail" class="full-width" placeholder="Your Email" value="">
+                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
                         </div>
-
                         <div class="form-field">
-                            <input name="cWebsite" type="text" id="cWebsite" class="full-width" placeholder="Website"  value="">
+                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
                         </div>
-
                         <div class="message form-field">
-                        <textarea name="cMessage" id="cMessage" class="full-width" placeholder="Your Message" ></textarea>
+                            <textarea name="contactMessage" type="text" id="contactMessage" placeholder="How may we help you?" class="full-width"></textarea>
                         </div>
-
-                        <button type="submit" class="submit btn btn--primary full-width">Submit</button>
+                        <div class="form-field" id="form-submit">
+                            <button class="full-width btn--primary">Submit</button>
+                        </div>
 
                     </fieldset>
                 </form> <!-- end form -->
@@ -148,9 +141,9 @@
                         <a href="#0" class="popular__thumb">
                             <img src="images/thumbs/small/wheel-150.jpg" alt="">
                         </a>
-                        <h5><a href="#0">Visiting Theme Parks Improves Your Health.</a></h5>
+                        <h5><a href="#0">How Solar Panels Can Actually Raise Your House Value?</a></h5>
                         <section class="popular__meta">
-                                <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
+                                <span class="popular__author"><span>By</span> <a href="#0"> Shinya Tajima</a></span>
                             <span class="popular__date"><span>on</span> <time datetime="2017-12-19">Dec 19, 2017</time></span>
                         </section>
                     </article>
@@ -158,9 +151,9 @@
                         <a href="#0" class="popular__thumb">
                             <img src="images/thumbs/small/shutterbug-150.jpg" alt="">
                         </a>
-                        <h5><a href="#0">Key Benefits Of Family Photography.</a></h5>
+                        <h5><a href="#0">8 Benefit of Going Solar in 2018.</a></h5>
                         <section class="popular__meta">
-                            <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
+                            <span class="popular__author"><span>By</span> <a href="#0"> Shinya Tajima</a></span>
                             <span class="popular__date"><span>on</span> <time datetime="2017-12-18">Dec 18, 2017</time></span>
                         </section>
                     </article>
@@ -168,9 +161,9 @@
                         <a href="#0" class="popular__thumb">
                             <img src="images/thumbs/small/cookies-150.jpg" alt="">
                         </a>
-                        <h5><a href="#0">Absolutely No Sugar Oatmeal Cookies.</a></h5>
+                        <h5><a href="#0">How Long Do Solar Panels Actually Last?</a></h5>
                         <section class="popular__meta">
-                                <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
+                                <span class="popular__author"><span>By</span> <a href="#0"> Shinya Tajima</a></span>
                             <span class="popular__date"><span>on</span> <time datetime="2017-12-16">Dec 16, 2017</time></span>
                         </section>
                     </article>
@@ -178,29 +171,29 @@
                         <a href="#0" class="popular__thumb">
                             <img src="images/thumbs/small/beetle-150.jpg" alt="">
                         </a>
-                        <h5><a href="#0">Throwback To The Good Old Days.</a></h5>
+                        <h5><a href="#0">Community Solar Farm Is Another Option of Going Solar.</a></h5>
                         <section class="popular__meta">
-                            <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
+                            <span class="popular__author"><span>By</span> <a href="#0"> Shinya Tajima</a></span>
                             <span class="popular__date"><span>on</span> <time datetime="2017-12-16">Dec 16, 2017</time></span>
                         </section>
                     </article>
                     <article class="col-block popular__post">
                         <a href="#0" class="popular__thumb">
-                            <img src="images/thumbs/small/tulips-150.jpg" alt="">
+                            <img src="images/SolarPanelRecycling.png" alt="">
                         </a>
-                        <h5><a href="#0">10 Interesting Facts About Caffeine.</a></h5>
+                        <h5><a href="#0">How to recycle solar panel?</a></h5>
                         <section class="popular__meta">
-                            <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
+                            <span class="popular__author"><span>By</span> <a href="#0"> Shinya Tajima</a></span>
                             <span class="popular__date"><span>on</span> <time datetime="2017-12-14">Dec 14, 2017</time></span>
                         </section>
                     </article>
                     <article class="col-block popular__post">
                         <a href="#0" class="popular__thumb">
-                            <img src="images/thumbs/small/salad-150.jpg" alt="">
+                            <img src="images/how_solar_works.jpg" alt="">
                         </a>
-                        <h5><a href="#0">Healthy Mediterranean Salad Recipes</a></h5>
+                        <h5><a  href="#0">Solar 101</a></h5>
                         <section class="popular__meta">
-                            <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
+                            <span class="popular__author"><span>By</span> <a href="#0"> Shinya Tajima</a></span>
                             <span class="popular__date"><span>on</span> <time datetime="2017-12-12">Dec 12, 2017</time></span>
                         </section>
                     </article>
@@ -208,24 +201,31 @@
             </div> <!-- end popular -->
             
             <div class="col-four md-six tab-full about">
-                <h3>About Philosophy</h3>
+                <h3>About Insolar</h3>
 
                 <p>
-                Donec sollicitudin molestie malesuada. Nulla quis lorem ut libero malesuada feugiat. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
+                    At INSOLAR, we believe there is a better way to go solar. A more valuable,
+                    less expensive way where customers are earned much more money rather than bought.
+                    We're very passionate about it, and our mission is to help people achieve it.
+                    We're excited to simplify going solar for everyone through our software, education,
+                    and community.
                 </p>
 
                 <ul class="about__social">
                     <li>
-                        <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-facebook color__green"></i></a>
                     </li>
                     <li>
-                        <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter color__green"></i></a>
                     </li>
                     <li>
-                        <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram color__green"></i></a>
                     </li>
                     <li>
-                        <a href="#0"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-behance color__green"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-dribbble color__green"></i></a>
                     </li>
                 </ul> <!-- end header__social -->
             </div> <!-- end about -->
@@ -234,13 +234,13 @@
 
         <div class="row bottom tags-wrap">
             <div class="col-full tags">
-                <h3>Tags</h3>
+                <h3 class="subhead">Tags</h3>
 
                 <div class="tagcloud">
-                    <a href="#0">Salad</a>
-                    <a href="#0">Recipe</a>
-                    <a href="#0">Places</a>
-                    <a href="#0">Tips</a>
+                    <a href="#0">Incentives</a>
+                    <a href="#0">Maintenance</a>
+                    <a href="#0">Instalation</a>
+                    <a href="#0">Washing</a>
                     <a href="#0">Friends</a>
                     <a href="#0">Travel</a>
                     <a href="#0">Exercise</a>

@@ -630,7 +630,7 @@
         clMediaElement();
         clPrettyPrint();
         clSearch();
-        clMobileMenu();
+        // clMobileMenu();
         clMasonryFolio();
         clSlickSlider();
         // clSmoothScroll();
