@@ -56,9 +56,7 @@
     ================================================== -->
     <section class="s-banner">
         <div class="banner jumbotron">
-            <div class="wrapper">
-                <h1 class="display-1 display-1--light">Join our network</h1>
-            </div>
+            <h1 class="display-1 display-1--light">Join our network</h1>
             <div class="wrapper">
                 <a class="btn btn--primary" href="#0">Sign Up</a>
             </div>
@@ -67,7 +65,7 @@
 
     <!-- why insolar
     ================================================== -->
-    <section class="s-content s-content--white">
+    <section class="s-timeline">
         <div class="timeline">
             <div class="timeline-container timeline-container__left">
                 <div class="content">
@@ -115,14 +113,14 @@
 
     <!-- 3 easy steps
     ================================================== -->
-    <section class="s-content s-content--narrow s-content--white">
+    <section class="s-steps">
         <div class="row">
             <div class="wrapper">
                 <h3 class="display-2 display-2--pink">Insolar is as simple as 1, 2, 3</h3>
             </div>
             <div class="container">
                 <div class="row s-steps">
-                    <div class="col-md-4 step-content">
+                    <div class="col-md-4 step-content ">
                         <div class="wrapper">
                             <h4 class="display-1">1</h4>
                         </div>
@@ -153,112 +151,100 @@
 
     <!-- sign up
     ================================================== -->
-    <section class="s-content s-content--narrow">
+    <section class="s-signup">
 
-        <div class="overlay"></div>
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Ready to join us?</h3>
+        <div class="container installer-sign-up">
+            <div class="wrapper" data-aos="fade-up">
+                    <h3 class="subhead">Ready to join us?</h3>
             </div>
-        </div>
 
-        <div class="row contact-content" data-aos="fade-up">
+            <div class="row contact-content contact-content__dark" data-aos="fade-up">
 
-            <div class="contact-primary">
-                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
-                    <fieldset>
+                <div class="contact-primary">
+                    <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                        <fieldset>
 
-                        <div class="form-field">
-                            <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                        </div>
-                        <div class="form-field">
-                            <button class="full-width btn--primary">Sign Up</button>
-                            <div class="submit-loader">
-                                <div class="text-loader">Sending...</div>
-                                <div class="s-loader">
-                                    <div class="bounce1"></div>
-                                    <div class="bounce2"></div>
-                                    <div class="bounce3"></div>
+                            <div class="form-field">
+                                <input name="contactCompanyName" type="text" id="contactCompanyName" placeholder="Company Name" value="" class="full-width">
+                            </div>
+                            <div class="form-field">
+                                <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                            </div>
+                            <div>
+                                <input name="contactJobTitle" type="text" id="contactJobTitle" placeholder="Job Title" value="" required="" aria-required="true" class="full-width">
+                            </div>
+                            <div class="form-field">
+                                <input name="contactPhone" type="tel" id="contactPhone" placeholder="Phone Number" value="" minlength="10" required="" aria-required="true" class="full-width"
+                            </div>
+                            <div class="form-field">
+                                <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="5" aria-required="true" class="full-width">
+                            </div>
+                            <div class="form-field">
+                                <button class="full-width btn--primary">Sign Up</button>
+                                <div class="submit-loader">
+                                    <div class="text-loader">Sending...</div>
+                                    <div class="s-loader">
+                                        <div class="bounce1"></div>
+                                        <div class="bounce2"></div>
+                                        <div class="bounce3"></div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                    </fieldset>
-                </form>
+                        </fieldset>
+                    </form>
 
-                <!-- contact-warning -->
-                <div class="message-warning">
-                    Something went wrong. Please try again.
-                </div>
-
-                <!-- contact-success -->
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
-                </div>
-
-            </div> <!-- end contact-primary -->
-
-            <div class="contact-secondary">
-                <div class="contact-info">
-
-                    <h3 class="h6 hide-on-fullwidth">Sign Up and enjoy our benefits</h3>
-
-                    <div class="cinfo">
-                        <h5>Wide netwrok of clients</h5>
+                    <!-- contact-warning -->
+                    <div class="message-warning">
+                        Something went wrong. Please try again.
                     </div>
 
-                    <div class="cinfo">
-                        <h5>No Fees</h5>
+                    <!-- contact-success -->
+                    <div class="message-success">
+                        Your message was sent, thank you!<br>
                     </div>
 
-                    <div class="cinfo">
-                        <h5>Market Insights</h5>
-                    </div>
-                    <div class="cinfo">
-                        <h5>Secure Leads</h5>
-                    </div>
+                </div> <!-- end contact-primary -->
 
-                    <ul class="contact-social">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                        </li>
-                    </ul> <!-- end contact-social -->
+                <div class="contact-secondary">
+                    <div class="contact-inf0 hide-on-fullwidth">
 
-                </div> <!-- end contact-info -->
-            </div> <!-- end contact-secondary -->
+                        <h3 class="subhead hide-on-fullwidth">Sign Up and enjoy<br> Our benefits</h3>
 
-        </div> <!-- end contact-content -->
+                        <ul>
+                            <li>
+                                <p>Wide network of clients</p>
+                            </li>
+                            <li>
+                                <p>No Fees</p>
+                            </li>
+                            <li>
+                                <p>Market Insights</p>
+                            </li>
+                            <li>
+                                <p>Secure Leads</p>
+                            </li>
+                        </ul>
+                    </div> <!-- end contact-info -->
+                </div> <!-- end contact-secondary -->
+
+            </div> <!-- end contact-content -->
+        </div> <!-- installer-sign-up -->
     </section>
 
     <!-- questions
     ================================================== -->
-    <section class="s-content s-content--narrow">
-        <div class="container">
-            <h2>Any Questions?</h2>
-            <h5>Please contact us and we'll help you decide whether Insolar is right for you.</h5>
-            <a href="#0">Contact Us</a>
+    <section class="s-questions">
+        <div class="jumbotron">
+            <div class="row">
+                <h2 class="display-2">Any Questions?</h2>
+            </div>
+            <div class="row">
+                <p>Please contact us and we'll help you decide whether Insolar is right for you.</p>
+            </div>
+            <div class="row">
+                <a class="btn btn--primary" href="contact.php">Contact Us</a>
+            </div>
         </div>
     </section>
     <!-- s-footer
