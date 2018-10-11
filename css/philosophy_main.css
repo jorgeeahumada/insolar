@@ -2845,7 +2845,7 @@ html.no-csstransitions .featured {
  * ------------------------------------------------------------------- */
 .s-content {
    background-color: #FBF8F2;
-   padding-top: 10.4rem;
+   padding-top: 5.4rem;
    padding-bottom: 7.2rem;
 }
 
@@ -2855,6 +2855,10 @@ html.no-csstransitions .featured {
 
 .s-content--narrow .row {
    max-width: 960px;
+}
+
+.s-content--white{
+   background-color: #ffffff;
 }
 
 .s-content__header {
