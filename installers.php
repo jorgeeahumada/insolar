@@ -207,7 +207,7 @@
                 </div> <!-- end contact-primary -->
 
                 <div class="contact-secondary">
-                    <div class="contact-inf0 hide-on-fullwidth">
+                    <div class="contact-info hide-on-fullwidth">
 
                         <h3 class="subhead hide-on-fullwidth">Sign Up and enjoy<br> Our benefits</h3>
 
