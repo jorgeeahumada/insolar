@@ -55,10 +55,7 @@
                     <a href="#0">Solar Calculator</a>
                 </li>
                 <li>
-                    <a href="philosophy_main_page.php">Articles</a>
-                </li>
-                <li>
-                    <a href="philosophy_main_page.php">News</a>
+                    <a href="philosophy_main_page.php">Resources</a>
                 </li>
                 <li>
                     <a href="philosophy_main_page.php">FAQ</a>

@@ -34,18 +34,11 @@
                 <li>
                     <a class="smoothscroll"  href="#services" title="savings calculator">Savings Calculator</a>
                 </li>
-                <li class=" dropdown-container">
-                    <div class=" dropdown">
-                        <div>
-                            <a href="#about" class="dropbtn">Resources</a>
-                            <i class="fa fa-caret-down"></i>
-                        </div>
-                        <div id="myDropdown" class="dropdown-content">
-                            <a class="smoothscroll" href="#home">Articles</a>
-                            <a class="smoothscroll" href="#services">News</a>
-                            <a class="smoothscroll" href="#clients">FAQ</a>
-                        </div>
-                    </div>
+                <li>
+                    <a class="smoothscroll"  href="" title="resources">Resources</a>
+                </li>
+                <li>
+                    <a class="smoothscroll"  href="" title="faq">FAQ</a>
                 </li>
                 <li>
                     <a class="smoothscroll"  href="#clients" title="login">Log In</a>
