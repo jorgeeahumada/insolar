@@ -24,7 +24,6 @@
     <!-- CSS
     ================================================== -->
     <link href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans:600" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:600" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--    The next ones may be able to be deleted, I'm not sure yet.-->
     <link rel="stylesheet" href="css/philosophy_base.css">
@@ -342,33 +341,45 @@
                 </div>
             </div>
         </div> <!-- Financing Overview -->
-        <div class="container"> <!--Buttons -->
-            <div class="row">
-                <div class="col-md-5">
-                    <button>Save to PDF</button>
+        <div class="s-finance__buttons"> <!--Buttons -->
+            <div class="d-flex justify-content-end">
+                <div class="d-inline">
+                    <button type="button" class="btn-outline--primary">Save to PDF</button>
                 </div>
-                <div class="col-md-5 col-offset-2">
-                    <button>Next</button>
+                <div class="d-inline">
+                    <button class="btn--primary">Next</button>
                 </div>
             </div>
         </div> <!-- Buttons -->
-        <div class="container"> <!-- Provided -->
-            <div class="row">
-                <div class="col-md-5">
-                    <h3>Quote Provided For:</h3>
-                    <p>Pedro Pina Naranjo</p>
-                    <p>1121 E. La Palma Ave. Anaheim, CA 92807, United States</p>
-                    <p>emailaddress@hotmail.com</p>
+        <div class="s-finance__provided"> <!-- Provided -->
+            <div class="d-flex justify-content-end">
+                <div class="d-inline justify-content-center">
+                    <div class="info_container">
+                        <h3>Quote Provided For:</h3>
+                        <div class="p_info">
+                            <p class="info">Pedro Pina Naranjo</p>
+                            <p class="info">1121 E. La Palma Ave.<br>
+                                Anaheim, CA 92807, <br>
+                                United States</p>
+                            <p class="info">emailaddress@hotmail.com</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-5 col-offset-2">
-                    <h3>Quote Provided For:</h3>
-                    <img src="images/insolar_dark_logo.svg" alt="The Insolar Logo">
-                    <p>1121 E. La Palma Ave. Anaheim, CA 92807, United States</p>
-                    <p>emailaddress@hotmail.com</p>
+                <div class="d-inline">
+                    <div class="info_container">
+                        <h3>Quote Provided For:</h3>
+                        <div class="p_info">
+                            <img  class="info" src="images/insolar_dark_logo.svg" alt="The Insolar Logo">
+                            <p class="info">1121 E. La Palma Ave. #200,<br>
+                                Anaheim, CA 92807,<br>
+                                United States</p>
+                            <p class="info">emailaddress@hotmail.com</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div> <!-- Provided -->
-        <div class="container"> <!--small print -->
+        <div class="s-finance__small-print"> <!--small print -->
             <p>
                 This sales proposal was prepared by and presented to you by In Solar.
                 The data provided in this sales proposal is a preliminary estimate and

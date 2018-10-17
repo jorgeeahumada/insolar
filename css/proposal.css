@@ -161,6 +161,7 @@
 }
 
 /*Pricing Summary*/
+
 .s-finance__price-summary{
     background-color: #4574CC;
     z-index:1;
@@ -198,6 +199,7 @@
 }
 
 /*Financing overview*/
+
 .s-finance__financial-overview{
     background-color: #FBF8F2;
     z-index:-1;
@@ -225,4 +227,69 @@
 
 .s-finance__financial-overview .stand__outs h3{
     margin:0;
+}
+
+/*Buttons*/
+
+.s-finance__buttons{
+    padding:1.5rem 5rem;
+    background-color: #ffffff;
+}
+
+.s-finance__buttons button{
+    margin:2rem;
+    min-width: 175px;
+}
+
+.s-finance__buttons .btn-outline--primary{
+    font-size: 1.3rem;
+}
+
+.s-finance__buttons .btn--primary{
+    font-size: 2.2rem;
+}
+
+/*Provided*/
+
+.s-finance__provided{
+    margin: 2rem 5rem
+}
+
+.s-finance__provided .d-inline{
+    min-width:350px;
+    border-style: solid;
+    border-color:#000000;
+    margin: 0 1.5rem 0 1.5rem;
+}
+
+.s-finance__provided .info_container{
+    margin: 2.5rem 5rem 1.5rem 2rem;
+    width:250px;
+}
+
+.s-finance__provided .p_info{
+    margin-left:3.5rem;
+}
+.s-finance__provided .info{
+    display: inline-block;
+}
+
+.s-finance__provided h3{
+    margin-bottom:1rem;
+}
+
+.s-finance__provided img{
+    margin-bottom: .5rem;
+}
+.s-finance__provided p{
+    margin-bottom:.5rem;
+}
+
+/*Small Print*/
+.s-finance__small-print{
+    position:relative;
+    margin: 7rem 4rem 1.5rem 4rem;
+    font-size: small;
+    line-height: 2rem;
+    color: #373A43;
 }
