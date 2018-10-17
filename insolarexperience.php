@@ -103,44 +103,6 @@ include 'navigation_bar.php';
             <p class="lead">We solve your problems </p>
             <p> Save Time And Money. Access Hundreds Of Solar Installers And The Best Solar Financing Plans Available With One Smart Portal. You'll get the best deal in the market</p>
 
-            <div class="row">
-                <div class="col-sm-6">
-            <div class="card" style="width: 35rem;" data-aos="zoom-in">
-                <img class="card-img-top" src="images/FillForm.jpg" alt="Card image cap">
-
-                <div class="card-body">
-                    <h5 class="card-title">Step 1 Fast and Easy</h5>
-                    <p class="card-text">Fill the form to receive your free customized solar proposal</p>
-                </div>
-
-
-            </div>
-                </div>
-
-
-                <div class="col-sm-6">
-
-            <div class="card" style="width: 35rem;" data-aos-delay="fade-up">
-                <img class="card-img-top" src="images/BestDeal.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Step 2 Get the Best Deal</h5>
-                    <p class="card-text">Receive your proposal with all the details about cost, rebates, equipment, warranties, design, and installer.</p>
-                </div>
-
-
-            </div>
-                </div>
-
-            <div class="col-sm-6">
-                <div class="card" style="width: 35rem;" data-aos-delay="fade-up">
-                    <img class="card-img-top" src="images/Choose.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Step 3 Start Saving</h5>
-                        <p class="card-text">Electronically sign your paperwork and schedule your installation from your phone or email</p>
-                    </div>
-                    
-                </div>
-            </div>
 
 
 
@@ -153,7 +115,9 @@ include 'navigation_bar.php';
 
 
 
-</div>
+
+
+
 
             <div>
             <p class = head> Try the simplest, fastest and most affordable way </p>
