@@ -121,7 +121,7 @@ body {
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-   font-family: "work-sans", sans-serif;
+   font-family: "Work Sans", sans-serif;
    color: #000000;
    font-style: normal;
    font-weight: 600;
@@ -711,7 +711,7 @@ textarea {
 /*}*/
 
 label, legend {
-   font-family: "work-sans", sans-serif;
+   font-family: "Work Sans", sans-serif;
    font-size: 1.4rem;
    font-weight: 600;
    margin-bottom: .9rem;
@@ -1081,7 +1081,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .stats-tabs li a {
    display: inline-block;
    font-size: 2.5rem;
-   font-family: "work-sans", sans-serif;
+   font-family: "Work Sans", sans-serif;
    font-weight: 600;
    border: none;
    color: #000000;
@@ -1123,7 +1123,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .pgn__num {
-   font-family: "work-sans", sans-serif;
+   font-family: "Work Sans", sans-serif;
    font-weight: 600;
    font-size: 1.5rem;
    line-height: 2.4rem;
@@ -1602,7 +1602,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .format-quote blockquote p, .format-link .link-wrap p {
-   font-family: "work-sans", sans-serif;
+   font-family: "Work Sans", sans-serif;
     font-weight:600;
    color: #000000;
    padding: 7.8rem 0 0 0;
@@ -2280,7 +2280,7 @@ body.search-is-visible {
    .header__nav {
       margin: 4.8rem 6rem 3rem 6rem;
       border-bottom: 1px solid rgba(255, 255, 255, 0.03);
-      font-family: "work-sans", sans-serif;
+      font-family: "Work Sans", sans-serif;
        font-weight: 600;
       font-size: 16px;
    }
@@ -2433,7 +2433,7 @@ body.search-is-visible {
 
 .featured .entry__category {
    display: inline-block;
-   font-family: "work-sans", sans-serif;
+   font-family: "Work Sans", sans-serif;
     font-weight: 600;
    font-size: 1.1rem;
    line-height: 2.4rem;
@@ -3059,7 +3059,7 @@ html.no-csstransitions .featured {
 }
 
 .s-extra h5 {
-   font-family: "work-snas", sans-serif;
+   font-family: "Work Sans", sans-serif;
     font-weight: 600;
    font-size: 1.6rem;
    line-height: 1.3125;
@@ -3140,7 +3140,7 @@ html.no-csstransitions .featured {
 
 .s-extra .tagcloud a {
    display: inline-block;
-   font-family: "work-sans", sans-serif;
+   font-family: "Work Sans", sans-serif;
     font-weight: 600;
    font-size: 1.3rem;
    line-height: 3.6rem;
@@ -3256,7 +3256,7 @@ footer a {
 }
 
 footer h4 {
-   font-family: "work-sans", sans-serif;
+   font-family: "Work Sans", sans-serif;
     font-weight: 600;
    font-size: 1.4rem;
    line-height: 1.286;
@@ -3712,7 +3712,7 @@ footer h4::after {
 .s-content__author-social {
    list-style: none;
    margin-left: 0;
-   font-family: "work-sans", sans-serif;
+   font-family: "Work Sans", sans-serif;
     font-weight: 600;
    font-size: 12px;
    text-transform: uppercase;
@@ -3759,7 +3759,7 @@ footer h4::after {
 }
 
 .s-content__nav a {
-   font-family: "work-sans", sans-serif;
+   font-family: "Work Sans", sans-serif;
     font-weight: 600;
    font-size: 2.2rem;
    line-height: 1.5;
