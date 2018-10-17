@@ -39,7 +39,7 @@
                     <a href="#0">About</a>
                 </li>
                 <li>
-                    <a href="#0">Insolar Experience</a>
+                    <a href="insolarexperience.php">Insolar Experience</a>
                 </li>
                 <li>
                     <a href="contact.php">Contact</a>

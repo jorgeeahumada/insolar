@@ -442,14 +442,6 @@
     ================================================== -->
     <section id="call-to-action-banner" class="s-call-to-action-banners">
 
-        <!-- <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="display-2 display-2--pink">Ready to start your solar project?</h3>
-                <h2 class="h3">Get your instant quote </h2>
-            </div>
-        </div> <!-- end section-header -->
-        <!--<a href =#0><button type="button" class="btn btn-outline-primary">Get Quote</button></a>
-        <a href = #0></a> <button type="button" class="btn btn-outline-secondary">Learn More</button></a> -->
 
         <div class="container" data-aos="fade-up">
             <div class="row">
@@ -466,81 +458,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-        <!--<div class="row clients-outer" data-aos="fade-up">
-            <div class="col-full">
-                <div class="clients">
-                    
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/apple.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/atom.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/blackberry.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/dropbox.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/envato.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/firefox.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/joomla.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/clients/magento.png" /></a>
-                     
-                </div> <!-- end clients -->
-<!--            </div> <!-- end col-full -->
-<!--        </div> <!-- end clients-outer -->
-
-        <!--<div class="row clients-testimonials" data-aos="fade-up">
-            <div class="col-full">
-                <div class="testimonials">
-
-                    <div class="testimonials__slide">
-
-                        <p>Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum. 
-                        Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.
-                        Excepturi nam cupiditate culpa doloremque deleniti repellat.</p>
-
-                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
-                        <div class="testimonials__info">
-                            <span class="testimonials__name">Tim Cook</span> 
-                            <span class="testimonials__pos">CEO, Apple</span>
-                        </div>
-
-                    </div>
-
-                    <div class="testimonials__slide">
-                        
-                        <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                        Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
-
-                        <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
-                        <div class="testimonials__info">
-                            <span class="testimonials__name">Sundar Pichai</span> 
-                            <span class="testimonials__pos">CEO, Google</span>
-                        </div>
-
-                    </div>
-
-                    <div class="testimonials__slide">
-                        
-                        <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
-                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
-
-                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
-                        <div class="testimonials__info">
-                            <span class="testimonials__name">Satya Nadella</span> 
-                            <span class="testimonials__pos">CEO, Microsoft</span>
-                        </div>
-
-                    </div>
-
-                </div><!-- end testimonials -->
-                
-<!--            </div> <!-- end col-full -->
-<!--        </div> <!-- end client-testimonials -->
         <div class="call-to-action__line"></div>
     </section> <!-- end s-clients -->
 
