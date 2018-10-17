@@ -2921,6 +2921,11 @@ html.no-csstransitions .featured {
 /* -------------------------------------------------------------------
  * ## masonry layout
  * ------------------------------------------------------------------- */
+
+.row.masonry-wrap{
+   display: block;
+}
+
 .masonry-wrap {
    max-width: none;
    width: 1440px;
