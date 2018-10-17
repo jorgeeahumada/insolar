@@ -15,6 +15,7 @@
 
     <!-- CSS
     ================================================== -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans:600" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--    The next ones may be able to be deleted, I'm not sure yet.-->
     <link rel="stylesheet" href="css/philosophy_base.css">
@@ -207,7 +208,7 @@
                 </div> <!-- end contact-primary -->
 
                 <div class="contact-secondary">
-                    <div class="contact-inf0 hide-on-fullwidth">
+                    <div class="contact-info hide-on-fullwidth">
 
                         <h3 class="subhead hide-on-fullwidth">Sign Up and enjoy<br> Our benefits</h3>
 
@@ -266,7 +267,6 @@
     <script src="js/glint_main.js"></script>
     <!--The next files might not be necessary so we might be able to delete them -->
     <script src="js/philosophy_plugins.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="js/philosophy_main.js"></script>
 
 </body>

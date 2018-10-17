@@ -123,7 +123,7 @@ a:hover, a:active {
 
 h1, h2, h3, h4, h5, h6, 
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "work-sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
     color: #18191C;
     font-style: normal;
     font-weight: 600;
@@ -199,7 +199,7 @@ p img {
 }
 
 p.lead {
-    font-family: "work-sans", sans-serif;
+    font-family: "Work Sanss", sans-serif;
     font-size: 2rem;
     font-weight: 600;
     line-height: 1.8;
@@ -252,7 +252,7 @@ blockquote:before {
 }
 
 blockquote p {
-    font-family: "work-sansr", sans-serif;
+    font-family: "Work Sans", sans-serif;
     padding: 0;
     font-size: 2.1rem;
     line-height: 1.857;
@@ -261,7 +261,7 @@ blockquote p {
 
 blockquote cite {
     display: block;
-    font-family: "work-sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
     font-size: 1.4rem;
     font-style: normal;
     line-height: 1.5;
@@ -453,7 +453,7 @@ th, td {
 
 th {
     color: #18191C;
-    font-family: "work-sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
 
 td {
@@ -723,7 +723,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
     display: inline-block;
-    font-family: "work-sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
@@ -845,7 +845,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: relative;
     margin-bottom: 3rem;
     border-radius: 3px;
-    font-family: "work-sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
     font-size: 1.5rem;
     line-height: 1.6;
 }
@@ -894,7 +894,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin: 0;
     padding: 1.5rem .6rem 0 0;
     font-size: 8.4rem;
-    font-family: "work-sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
     font-weight: 600;
     line-height: 6rem;
     text-indent: 0;
@@ -1072,7 +1072,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: absolute;
     left: 0;
     top: -3rem;
-    font-family: "work-sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
     color: #18191C;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -1151,7 +1151,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
-    font-family: "work-sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
     font-size: 6.8rem;
     line-height: 1.25;
     color: #010507;
@@ -1163,7 +1163,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-2 {
-    font-family: "work-sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
     font-size: 4.2rem;
     line-height: 1.255;
     color: #18191C;
@@ -1183,7 +1183,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .subhead {
-    font-family: "work-sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
     font-size: 1.7rem;
     line-height: 1.333;
     text-transform: uppercase;

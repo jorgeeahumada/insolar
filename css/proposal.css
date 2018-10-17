@@ -1,0 +1,228 @@
+
+/* ===================================================================
+ * # benefits
+ *
+ * ------------------------------------------------------------------- */
+.s-benefits{
+    padding-top:12rem;
+    background-color: #ffffff;
+}
+
+.s-benefits__banner{
+    padding: 0 6rem 0 0;
+}
+
+.s-benefits__banner h1{
+    padding: 3.5rem 0 1rem 0;
+    color: #BCDB52;
+    border-bottom-style: solid;
+    border-bottom-color:#BCDB52;
+}
+
+.s-benefits__content{
+    padding: 3rem 1rem;
+    text-align: center;
+
+}
+
+.s-benefits__content .display-2{
+    margin-bottom:0;
+}
+
+.top-divider{
+    border-bottom-style: solid;
+    border-bottom-color: #18191C;
+}
+
+.bottom-divider{
+    margin-top: 3rem;
+}
+
+/* ===================================================================
+ * # Energy consumption
+ *
+ * ------------------------------------------------------------------- */
+.s-consumption{
+    background-color: #FBF8F2;
+}
+
+.s-consumption .jumbotron{
+    background-color: #FBF8F2;
+    max-width: 1500px;
+    margin: 0 auto 0 auto;
+}
+
+.s-consumption .address{
+    margin: 3rem 0;
+}
+
+.s-consumption .details{
+    right:0;
+    max-width:400px
+}
+
+.s-consumption .details div div{
+    text-align: center;
+    padding:0;
+}
+
+.s-consumption .details p{
+    margin:0;
+}
+.s-consumption .map-wrap{
+    max-height:300px;
+    margin: 3rem 1rem 0 1rem;
+}
+
+/* ===================================================================
+ * # System overview
+ *
+ * ------------------------------------------------------------------- */
+
+.s-system{
+    padding: 2rem 5rem;
+}
+
+.s-system .component-details h3{
+    display:inline-block;
+    margin: 0 2rem;
+}
+
+.s-system .component{
+    display:inline-block;
+}
+
+.s-system .component h4,
+.s-system .component p{
+    margin:0;
+}
+
+.banners .row{
+    margin:3rem 0;
+}
+
+.s-system .banner{
+    background-color: #D65283;
+}
+
+.s-system .banner h2,
+.s-system .banner p{
+    margin:0;
+    color: #ffffff;
+}
+
+.s-system .banner h2{
+    font-weight:600;
+}
+
+.s-system .banner__1{
+    text-align: right;
+}
+
+.banner__2 .row{
+    margin:0;
+}
+
+.banner__2 div div{
+    margin:1.5rem 0;
+    padding:0;
+}
+
+.banner__2 h2{
+    width:111px;
+    line-height: 3rem;
+}
+
+.banner__2 .banner__2_center{
+    float:right;
+}
+
+.banner__2 .banner__2_right{
+   float:right;
+}
+
+/* ===================================================================
+ * # Finances
+ *
+ * ------------------------------------------------------------------- */
+
+.s-finance .line__dotted{
+    border-bottom-color: #Ffffff;
+    border-bottom-style: dotted;
+}
+
+.line__dotted.line__dotted-dark{
+    border-bottom-color: #18191C;
+    min-width: 14rem;
+}
+
+.s-finance .col{
+    padding:0;
+}
+
+/*Pricing Summary*/
+.s-finance__price-summary{
+    background-color: #4574CC;
+    z-index:1;
+    margin: 3rem 0 0 5rem;
+    padding: 1.5rem 2rem;
+    width:400px;
+    height:1000px;
+    position:absolute;
+}
+
+.s-finance__price-summary h2{
+    color:#ffffff;
+    margin: 1rem 0 1rem 0;
+}
+
+.s-finance__price-summary li{
+    margin-bottom: 3rem;
+}
+
+.s-finance__price-summary h3,
+.s-finance__price-summary p,
+.s-finance__price-summary h4{
+    color: #ffffff;
+    margin:0;
+
+}
+
+.s-finance__price-summary .first__p{
+    margin:0;
+}
+
+.s-finance__price-summary .second__p{
+    padding-left:2rem;
+    margin-bottom:1rem;
+}
+
+/*Financing overview*/
+.s-finance__financial-overview{
+    background-color: #FBF8F2;
+    z-index:-1;
+    margin:0;
+    padding: 5rem 3rem 3rem 55rem;
+    width:100%;
+}
+
+.s-finance__financial-overview li{
+    margin-bottom: 6rem;
+}
+
+.s-finance__financial-overview .simple_header{
+    font-family: 'roboto', sans-serif;
+    font-weight: normal;
+}
+
+.s-finance__financial-overview h5{
+    margin:0;
+}
+
+.s-finance__financial-overview .stand__outs{
+    text-align: center;
+}
+
+.s-finance__financial-overview .stand__outs h3{
+    margin:0;
+}
