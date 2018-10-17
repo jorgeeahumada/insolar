@@ -74,13 +74,13 @@ html, body {
 }
 
 body {
-    background: #111111;
+    background: #ffffff;
     font-family: "roboto", sans-serif;
     font-size: 1.7rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.765;
-    color: #757575;
+    color: #18191C;
     margin: 0;
     padding: 0;
 }
@@ -1447,7 +1447,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     background: #18191C;
 }
 
-
 /* ------------------------------------------------------------------- 
  * ## home content
  * ------------------------------------------------------------------- */
@@ -2781,7 +2780,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #39b54a;
+    background: #BCDB52;
 }
 
 .s-contact .form-field label::after {
@@ -2792,7 +2791,7 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #39b54a;
+    border-right: 5px solid #BCDB52;
 }
 
 .contact__line {
@@ -2818,6 +2817,10 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
+/*.contact-content__dark{*/
+    /*background-color: rgba(55,58,67,.3);*/
+/*}*/
+
 .contact-content h3 {
     margin-top: 0;
     margin-bottom: 3rem;
@@ -2826,7 +2829,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #39b54a;
+    color: #ffffff;
 }
 
 .contact-content input[type="email"],
@@ -2838,8 +2841,22 @@ html.no-csstransitions .home-content__main {
 .contact-content input[type="password"],
 .contact-content textarea,
 .contact-content select {
-    color: rgba(255, 255, 255, 0.6);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255, 255, 255,.3);
+    margin-bottom: .9rem;
+}
+
+.contact-content__dark input[type="email"],
+.contact-content__dark input[type="number"],
+.contact-content__dark input[type="search"],
+.contact-content__dark input[type="text"],
+.contact-content__dark input[type="tel"],
+.contact-content__dark input[type="url"],
+.contact-content__dark input[type="password"],
+.contact-content__dark textarea,
+.contact-content__dark select{
+    color: #18191C;
+    border-bottom: 1px solid rgba(0, 0, 0,.3);
     margin-bottom: .9rem;
 }
 
@@ -2852,7 +2869,7 @@ html.no-csstransitions .home-content__main {
 .contact-content input[type="password"]:focus,
 .contact-content textarea:focus,
 .contact-content select:focus {
-    color: #FFFFFF;
+    color: #18191C;
     border-bottom: 1px solid #D65283;
 }
 
@@ -2914,7 +2931,7 @@ html.no-csstransitions .home-content__main {
     top: 0;
     bottom: 0;
     right: 0;
-    background-color: #121212;
+    background-color: #373A43;
 }
 
 .contact-secondary .contact-info {
@@ -2944,7 +2961,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-social li a:hover, 
 .contact-social li a:focus {
-    color: #39b54a;
+    color: #ffffff;
 }
 
 .contact-social li:last-child {
@@ -3057,7 +3074,6 @@ html.no-csstransitions .home-content__main {
         top: -7.2rem;
     }
     .contact-content {
-        padding-bottom: 12rem;
         text-align: center;
     }
     .contact-primary, .contact-secondary {

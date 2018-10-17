@@ -25,8 +25,8 @@
             <h3>Navigation</h3>
 
             <ul class="header-nav__list">
-                <li class="current">
-                    <a class="smoothscroll"  href="index.html" title="home">Home</a>
+                <li>
+                    <a href="index.php" title="home">Home</a>
                 </li>
                 <li>
                     <a class="smoothscroll"  href="#about" title="insolar experience">Insolar Experience</a>

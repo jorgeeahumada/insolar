@@ -275,7 +275,7 @@
                 <div class="logo">
                     <img src="images/insolar_dark_logo.png" alt="The Insolar logo for the solar company">
                 </div>
-                <ul class="list-group list-group-flush">
+                <ul class="list-unstyled">
                     <li class="service-item">
                         <div class="service-icon">
                             <i class="fa fa-check"></i>
@@ -314,7 +314,7 @@
                 <div class="logo">
                     <h4 class="h1">Others</h4>
                 </div>
-                <ul class="list-group list-group-flush">
+                <ul class="list-unstyled">
                     <li class="service-item">
                         <div class="service-negative-icon">
                             <i class="fa fa-times-circle-o"></i>
