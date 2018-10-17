@@ -238,7 +238,7 @@
                 <div class="tagcloud">
                     <a href="#0">Incentives</a>
                     <a href="#0">Maintenance</a>
-                    <a href="#0">Instalation</a>
+                    <a href="#0">Installation</a>
                     <a href="#0">Washing</a>
                     <a href="#0">Friends</a>
                     <a href="#0">Travel</a>

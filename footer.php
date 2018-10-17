@@ -55,13 +55,13 @@
                     <a href="#0">Solar Calculator</a>
                 </li>
                 <li>
-                    <a href="#0">Articles</a>
+                    <a href="philosophy_main_page.php">Articles</a>
                 </li>
                 <li>
-                    <a href="#0">News</a>
+                    <a href="philosophy_main_page.php">News</a>
                 </li>
                 <li>
-                    <a href="#0">FAQ</a>
+                    <a href="philosophy_main_page.php">FAQ</a>
                 </li>
             </ul>
         </div>

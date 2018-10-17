@@ -3,9 +3,38 @@
     opacity: 0.5;
 }
 
-.card-img-top{
-
+.center{
+    text-align: center;
 }
+
+#img-align{
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    margin: auto;
+}
+
+.card{
+    transition: transform .2s;
+}
+
+.card:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+#sun-background{
+    background-image: url("../images/gold.jpg");
+    background-repeat:no-repeat;
+    background-size: 100vw;
+}
+
+.s-content{
+    padding-bottom:0;
+}
+
+
 
 
 

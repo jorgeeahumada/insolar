@@ -767,7 +767,7 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #BCDB52;
+    background-color: #BCDB52;
     border-color: #BCDB52;
     color: #FFFFFF;
     font-weight: bold;
