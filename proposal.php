@@ -68,13 +68,13 @@
             <div class="row">
                 <div class="col-md-4 s-benefits__banner">
                     <img src="images/insolar_dark_logo.svg" alt="The Insolar logo. Insolar is a leading solar system provider using cutting edge technology to increase the national solar adoption rate.">
-                    <h1 class="display-2">Your Solar<br>Solution</h1>
+                    <h1 class="display-2">Your Solar Solution</h1>
                 </div>
-                <div class="col offset-md-1 s-benefits__content">
+                <div class="col-md-7 offset-md-1 s-benefits__content">
                     <div class="row top-divider">
                         <div class="col-md-4">
-                            <h3 class="display-2 display-2--pink">3 Year</h3>
-                            <p>Break Even<br>Period</p>
+                            <h3 class="display-2 display-2--pink align-middle">3 Year</h3>
+                            <p>Break Even Period</p>
                         </div>
                         <div class="col-md-4">
                             <h3 class="display-2 display-2--pink">$12,946</h3>
@@ -82,13 +82,13 @@
                         </div>
                         <div class="col-md-4">
                             <h3 class="display-2 display-2--pink">100%</h3>
-                            <p>Return on<br>Investment</p>
+                            <p>Return on Investment</p>
                         </div>
                     </div>
                     <div class="row bottom-divider">
                         <div class="col-md-4">
                             <h3 class="display-2 display-2--pink">$46.06</h3>
-                            <p>Monthly Loan<br>Payment</p>
+                            <p>Monthly Loan Payment</p>
                         </div>
                         <div class="col-md-4">
                             <h3 class="display-2 display-2--pink">53.9%</h3>
@@ -96,7 +96,7 @@
                         </div>
                         <div class="col-md-4">
                             <h3 class="display-2 display-2--pink">+$19,800</h3>
-                            <p>Home<br>Appreciation</p>
+                            <p>Home Appreciation</p>
                         </div>
                     </div>
                 </div>
@@ -402,8 +402,8 @@
 <!-- preloader
 ================================================== -->
     <?php
-    //include 'preloader.php';
-    //?>
+        include 'preloader.php';
+    ?>
 <!-- Java Script
 ================================================== -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

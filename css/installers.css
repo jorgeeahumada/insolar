@@ -219,7 +219,7 @@
  *
  *---------------------------------------------------*/
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){ /* This break point is so specific because it is based on when the flex box changes its orientation */
     .step-content--middle{
         border-style:hidden;
     }

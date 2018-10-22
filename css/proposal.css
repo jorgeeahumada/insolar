@@ -9,7 +9,8 @@
 }
 
 .s-benefits__banner{
-    padding: 0 6rem 0 0;
+    padding: 0;
+    max-width:400px;
 }
 
 .s-benefits__banner h1{
@@ -37,6 +38,61 @@
 .bottom-divider{
     margin-top: 3rem;
 }
+
+.s-benefits__content .col-md-4{
+    padding:0;
+}
+
+/* ===================================================================
+ * responsive:
+ * # benefits
+ *
+ * ------------------------------------------------------------------- */
+
+@media only screen and (max-width:1100px){
+    .s-benefits__content .display-2{
+        font-size: 2.8rem;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .s-benefits__content .display-2{
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .s-benefits__content .top-divider{
+        border-style: hidden;
+    }
+
+    .s-benefits__content .top-divider,
+    .s-benefits__content .bottom-divider{
+        margin:0;
+    }
+    .s-benefits__content .col-md-4{
+        min-height:60px;
+        text-align:left;
+        display: flex;
+        border-left-style: solid;
+        border-left-width: 7px;
+        border-left-color: #D65283;
+        margin-bottom: 3rem;
+
+    }
+    .s-benefits__content .display-2{
+        font-size: 3rem;
+        display: inline-block;
+        margin: auto 0 auto 1rem;
+    }
+
+    .s-benefits__content p{
+        display:inline-block;
+        margin:auto 0;
+        padding-left: 3rem;
+    }
+}
+
 
 /* ===================================================================
  * # Energy consumption
@@ -141,6 +197,107 @@
    float:right;
 }
 
+/* ===================================================================
+ * responsive:
+ * # System Overview
+ *
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px){
+    .s-system{
+        padding: 2rem .5rem 2rem .5rem;
+    }
+
+    .s-system .components-list{
+       min-width: 50%;
+    }
+
+    .s-system .banners{
+        max-width: 50%;
+    }
+    .s-system .banner__1{
+        min-width: 75%;
+    }
+
+    .s-system .banner__2{
+        min-width: 95%;
+    }
+
+    .s-system .banner__3{
+        min-width: 60%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .s-system .row{
+        padding: 0 .5rem;
+        width:100%;
+    }
+
+    .s-system .components-list ul{
+        margin-bottom: 0;
+    }
+
+    .s-system .component-details{
+        margin-bottom:2rem;
+    }
+
+    .s-system .component-details .component,
+    .s-system .component-details h3{
+        display:block;
+    }
+
+    .s-system .component-details .display-2{
+        margin: 0 .5rem;
+    }
+
+    .s-system .banners .row{
+        margin: 1rem 0;
+    }
+
+    .s-system .banner{
+        max-width:250px;
+        flex:0 0 auto;
+        margin: 3rem auto;
+        text-align: center;
+    }
+
+    .s-system .banner .display-2{
+        display: block;
+        margin: 1rem auto;
+    }
+
+    .s-system .banner p{
+        display: block;
+        margin: 1rem auto;
+    }
+
+    .s-system .banner__2{
+        padding: 0 .5rem
+    }
+
+    .s-system .banner__2 .col-md-4{
+        display:block;
+        max-width: none;
+        margin:auto
+    }
+
+    .s-system .banner__2 .col-md-8{
+        display: block;
+        max-width: none;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .s-system .components-list,
+    .s-system .banners{
+        width: auto;
+    }
+
+    .s-system .banner{
+        margin: 0 auto;
+    }
+}
 /* ===================================================================
  * # Finances
  *
@@ -257,8 +414,8 @@
 
 .s-finance__provided .d-inline{
     min-width:350px;
-    border-style: solid;
-    border-color:#000000;
+    background-image: url("../images/braketed_square.svg");
+    background-repeat: no-repeat;
     margin: 0 1.5rem 0 1.5rem;
 }
 
@@ -293,3 +450,9 @@
     line-height: 2rem;
     color: #373A43;
 }
+
+/* ===================================================================
+ * responsive:
+ * # Finances
+ *
+ * ------------------------------------------------------------------- */
