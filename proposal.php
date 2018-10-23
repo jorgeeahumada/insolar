@@ -228,106 +228,60 @@
         <div class="s-finance__price-summary"> <!-- Pricing Summary -->
             <h2 class="h3">Pricing Summary</h2>
             <ul class="list-unstyled">
-                <li class="row">
-                    <div class="col col-md-4">
-                        <p>System Install</p>
-                    </div>
-                    <div class="line__dotted col col-md-5"></div>
-                    <div class="col col-md-3">
-                        <h4>$ 4,816</h4>
-                    </div>
+                <li class="line__dotted">
+                    <span class="leader blue">System Install</span>
+                    <span class="blue">$ 4,816</span>
                 </li>
-                <li class="row">
-                    <div class="col col-md-4">
-                        <p>System Cost</p>
-                    </div>
-                    <div class="line__dotted col col-md-5"></div>
-                    <div class="col col-md-3">
-                        <h4>$ 3,996</h4>
-                    </div>
+                <li class="line__dotted">
+                    <span class="leader blue">System Cost</span>
+                    <span class="blue">$ 3,996</span>
                 </li>
-                <li class="row">
-                    <div class="col col-md-6">
-                        <p>Gross System Cost</p>
-                    </div>
-                    <div class="line__dotted col col-md-2"></div>
-                    <div class="col col-md-4">
-                        <h4>$ 8,781.90</h4>
-                    </div>
+                <li class="line__dotted">
+                    <span class="leader blue">Gross System Cost</span>
+                    <span class="blue">$ 8,781.90</span>
                 </li>
                 <li class="container">
                     <p class="first__p">Credit Details</p>
                     <p class="second__p">US Federal Tax Credit (30%)</p>
-                    <div class="row">
-                        <div class="line__dotted col col-md-5 offset-md-2"></div>
-                        <div class="col col-md-5">
-                            <h4>$ 2,643.57</h4>
-                        </div>
+                    <div class="line__dotted">
+                        <span class="blue medium">$ 2,643.57</span>
                     </div>
                 </li>
             </ul>
             <h3>Net Total</h3>
-            <div class="row">
-                <div class="line__dotted col col-md-6"></div>
-                <div class="col col-md-6">
-                    <h3 class="h1">$ 6,147,33</h3>
-                </div>
+            <div class="line__dotted">
+                <span class="blue stand__out">$ 6,147,33</span>
             </div>
         </div> <!-- Pricing Summary -->
 
         <div class="s-finance__financial-overview"> <!-- Financing Overview -->
             <h2>Financial Overview</h2>
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-8 info_container">
                     <ul class="list-unstyled">
-                        <li class="d-flex">
-                            <div class="d-inline">
-                                <h5 class="h4 simple_header">Down Payment</h5>
-                            </div>
-                            <div class="d-inline line__dotted line__dotted-dark"></div>
-                            <div class="d-inline">
-                                <h5 class="h4">$ 0</h5>
-                            </div>
+                        <li class="line__dotted line__dotted-dark">
+                            <span class="leader simple_header cream">Down Payment</span>
+                            <span class="cream bold_header">$ 0</span>
                         </li>
-                        <li class="d-flex">
-                            <div class="d-inline">
-                                <h5 class="h4 simple_header">Interest Rate</h5>
-                            </div>
-                            <div class="d-inline line__dotted line__dotted-dark"></div>
-                            <div class="d-inline">
-                                <h5 class="h4">4.99%</h5>
-                            </div>
+                        <li class="line__dotted line__dotted-dark">
+                            <span class="leader simple_header cream">Interest Rate</span>
+                            <span class="cream bold_header">4.99%</span>
                         </li>
-                        <li class="d-flex">
-                            <div class="d-inline">
-                                <h5 class="h4 simple_header">Loan Period</h5>
-                            </div>
-                            <div class="d-inline line__dotted line__dotted-dark"></div>
-                            <div class="d-inline">
-                                <h5 class="h4">20 Years</h5>
-                            </div>
+                        <li class="line__dotted line__dotted-dark">
+                            <span class="leader simple_header cream">Loan Period</span>
+                            <span class="cream bold_header">20 Years</span>
                         </li>
-                        <li class="d-flex">
-                            <div class="d-inline">
-                                <h5 class="h4 simple_header">Loan Ammount</h5>
-                            </div>
-                            <div class="d-inline line__dotted line__dotted-dark"></div>
-                            <div class="d-inline">
-                                <h5 class="h4">$ 9,979</h5>
-                            </div>
+                        <li class="line__dotted line__dotted-dark">
+                            <span class="leader simple_header cream">Loan Amount</span>
+                            <span class="cream bold_header">$ 9,979</span>
                         </li>
-                        <li class="d-flex">
-                            <div class="d-inline">
-                                <h5 class="h4 simple_header">Credits/Rebates</h5>
-                            </div>
-                            <div class="d-inline line__dotted line__dotted-dark"></div>
-                            <div class="d-inline">
-                                <h5 class="h4">$ 2,994</h5>
-                            </div>
+                        <li class="line__dotted line__dotted-dark">
+                            <span class="leader simple_header cream">Credits/Rebates</span>
+                            <span class="cream bold_header">$ 2,994</span>
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 banners">
                     <ul class="stand__outs list-unstyled">
                         <li>
                             <h3 class="display-2 display-2--pink">$ 46.06</h3>
@@ -344,55 +298,57 @@
         <div class="s-finance__buttons"> <!--Buttons -->
             <div class="d-flex justify-content-end">
                 <div class="d-inline">
-                    <button type="button" class="btn-outline--primary">Save to PDF</button>
+                    <button type="button" class="btn btn-outline--primary">Save to PDF</button>
                 </div>
                 <div class="d-inline">
-                    <button class="btn--primary">Next</button>
+                    <button class="btn btn--primary">Next</button>
                 </div>
             </div>
         </div> <!-- Buttons -->
         <div class="s-finance__provided"> <!-- Provided -->
-            <div class="d-flex justify-content-end">
-                <div class="d-inline justify-content-center">
-                    <div class="info_container">
-                        <h3>Quote Provided For:</h3>
-                        <div class="p_info">
-                            <p class="info">Pedro Pina Naranjo</p>
-                            <p class="info">1121 E. La Palma Ave.<br>
-                                Anaheim, CA 92807, <br>
-                                United States</p>
-                            <p class="info">emailaddress@hotmail.com</p>
-                        </div>
+            <div class="provided top">
+                <div class="info_container">
+                    <h3>Quote Provided For:</h3>
+                    <div class="p_info">
+                        <p class="info">Pedro Pina Naranjo</p>
+                        <p class="info">1121 E. La Palma Ave.<br>
+                            Anaheim, CA 92807, <br>
+                            United States</p>
+                        <p class="info">emailaddress@hotmail.com</p>
                     </div>
                 </div>
-                <div class="d-inline">
-                    <div class="info_container">
-                        <h3>Quote Provided For:</h3>
-                        <div class="p_info">
-                            <img  class="info" src="images/insolar_dark_logo.svg" alt="The Insolar Logo">
-                            <p class="info">1121 E. La Palma Ave. #200,<br>
-                                Anaheim, CA 92807,<br>
-                                United States</p>
-                            <p class="info">emailaddress@hotmail.com</p>
-                        </div>
+            </div>
+            <div class="provided bottom">
+                <div class="info_container">
+                    <h3>Quote Provided For:</h3>
+                    <div class="p_info">
+                        <img  class="info" src="images/insolar_dark_logo.svg" alt="The Insolar Logo">
+                        <p class="info">1121 E. La Palma Ave. #200,<br>
+                            Anaheim, CA 92807,<br>
+                            United States</p>
+                        <p class="info">emailaddress@hotmail.com</p>
                     </div>
                 </div>
             </div>
         </div> <!-- Provided -->
-        <div class="s-finance__small-print"> <!--small print -->
-            <p>
-                This sales proposal was prepared by and presented to you by In Solar.
-                The data provided in this sales proposal is a preliminary estimate and
-                does not represent a binding agreement or obligation. A solar power
-                system is customized for your home, so pricing and savings vary based
-                on location, system size, government rebates and local utility rates.
-                Savings on your total electricity costs is not guaranteed. Financing
-                terms vary by location and are not available in all areas. This proposal
-                is a not an approval for a finance product, and the interest rate provided
-                in this sales proposal is subject to credit approval by the lender.
-            </p>
-        </div> <!-- small print -->
+
     </section> <!-- finance -->
+
+<!-- small print
+================================================== -->
+<section class="s-small-print"> <!--small print -->
+    <p>
+        This sales proposal was prepared by and presented to you by In Solar.
+        The data provided in this sales proposal is a preliminary estimate and
+        does not represent a binding agreement or obligation. A solar power
+        system is customized for your home, so pricing and savings vary based
+        on location, system size, government rebates and local utility rates.
+        Savings on your total electricity costs is not guaranteed. Financing
+        terms vary by location and are not available in all areas. This proposal
+        is a not an approval for a finance product, and the interest rate provided
+        in this sales proposal is subject to credit approval by the lender.
+    </p>
+</section> <!-- small print -->
 
 <!-- s-footer
 ================================================== -->

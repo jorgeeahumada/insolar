@@ -202,18 +202,16 @@
  * # System Overview
  *
  * ------------------------------------------------------------------- */
+@media only screen and (min-width: 800px) and (max-width: 1200px){
+    .s-system .banners{
+        max-width: 50%;
+    }
+}
 @media only screen and (max-width: 1200px){
     .s-system{
         padding: 2rem .5rem 2rem .5rem;
     }
 
-    .s-system .components-list{
-       min-width: 50%;
-    }
-
-    .s-system .banners{
-        max-width: 50%;
-    }
     .s-system .banner__1{
         min-width: 75%;
     }
@@ -231,6 +229,16 @@
     .s-system .row{
         padding: 0 .5rem;
         width:100%;
+    }
+
+    .s-system .components-list{
+        max-width: 60%;
+        width:auto;
+    }
+
+    .s-system .banners{
+        max-width: 60%;
+        width: auto;
     }
 
     .s-system .components-list ul{
@@ -291,7 +299,8 @@
 @media only screen and (max-width: 600px){
     .s-system .components-list,
     .s-system .banners{
-        width: auto;
+        width: 100%;
+        max-width: none;
     }
 
     .s-system .banner{
@@ -304,17 +313,33 @@
  * ------------------------------------------------------------------- */
 
 .s-finance .line__dotted{
-    border-bottom-color: #Ffffff;
-    border-bottom-style: dotted;
+    border-bottom: 2px #ffffff dotted;
+    text-align: right;
+    padding:0;
 }
 
 .line__dotted.line__dotted-dark{
     border-bottom-color: #18191C;
-    min-width: 14rem;
 }
 
-.s-finance .col{
-    padding:0;
+.s-finance span{
+    display: inline-block;
+    border-bottom-width: 3px;
+    border-bottom-style:solid;
+    border-bottom-color: #ffffff;
+    margin: 0 0 -2px -2px;
+}
+
+.s-finance .line__dotted .leader{
+    float:left;
+}
+
+.s-finance span.blue{
+    border-bottom-color: #4574CC;
+}
+
+.s-finance span.cream{
+    border-bottom-color: #FBF8F2;
 }
 
 /*Pricing Summary*/
@@ -327,9 +352,11 @@
     width:400px;
     height:1000px;
     position:absolute;
+    color:#FFFFFF;
 }
 
-.s-finance__price-summary h2{
+.s-finance__price-summary h2,
+.s-finance__price-summary h3{
     color:#ffffff;
     margin: 1rem 0 1rem 0;
 }
@@ -338,12 +365,11 @@
     margin-bottom: 3rem;
 }
 
-.s-finance__price-summary h3,
-.s-finance__price-summary p,
-.s-finance__price-summary h4{
-    color: #ffffff;
-    margin:0;
-
+.s-finance__price-summary span,
+.s-finance__price-summary p{
+    font-family: 'work-sans', sans-serif;
+    font-weight: 600;
+    font-size: large;
 }
 
 .s-finance__price-summary .first__p{
@@ -353,6 +379,14 @@
 .s-finance__price-summary .second__p{
     padding-left:2rem;
     margin-bottom:1rem;
+}
+
+.s-finance__price-summary .medium{
+    font-size: larger;
+}
+
+.s-finance__price-summary .stand__out{
+    font-size: xx-large;
 }
 
 /*Financing overview*/
@@ -372,6 +406,11 @@
 .s-finance__financial-overview .simple_header{
     font-family: 'roboto', sans-serif;
     font-weight: normal;
+}
+
+.s-finance__financial-overview .bold_header{
+    font-family: 'work-sans', sans-serif;
+    font-weight: bold;
 }
 
 .s-finance__financial-overview h5{
@@ -409,19 +448,27 @@
 /*Provided*/
 
 .s-finance__provided{
-    margin: 2rem 5rem
+    margin: 2rem 5rem;
+    display:flex;
+    justify-content: flex-end;
 }
 
-.s-finance__provided .d-inline{
+.s-finance__provided .provided{
     min-width:350px;
-    background-image: url("../images/braketed_square.svg");
-    background-repeat: no-repeat;
-    margin: 0 1.5rem 0 1.5rem;
-}
+    margin: 0 8rem 0 8rem;
+    border: 10px solid transparent;
+    -webkit-border-image: url("../images/braketed_square.svg") 10 10 stretch;
+    -moz-border-image: url("../images/braketed_square.svg") 10 10 stretch;
+    -o-border-image: url("../images/braketed_square.svg") 10 10 stretch;
+    border-image: url("../images/braketed_square.svg") 10 10 stretch;
+    display: flex;
+    justify-content: center;
 
+}
 .s-finance__provided .info_container{
     margin: 2.5rem 5rem 1.5rem 2rem;
     width:250px;
+
 }
 
 .s-finance__provided .p_info{
@@ -442,10 +489,13 @@
     margin-bottom:.5rem;
 }
 
-/*Small Print*/
-.s-finance__small-print{
+/* ===================================================================
+ * # Small Print
+ *
+ * ------------------------------------------------------------------- */
+.s-small-print{
     position:relative;
-    margin: 7rem 4rem 1.5rem 4rem;
+    margin: 1.5rem 4rem 1.5rem 4rem;
     font-size: small;
     line-height: 2rem;
     color: #373A43;
@@ -456,3 +506,104 @@
  * # Finances
  *
  * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px){
+    /* Pricing Summary */
+    .s-finance__price-summary{
+        margin-left:3rem;
+        height: 1150px;
+    }
+    /* Pricing Summary ---------- end */
+
+    /* Financing Overview */
+    .s-finance__financial-overview{
+        padding-left:45%;
+    }
+
+    .s-finance__financial-overview .info_container{
+        padding:0;
+    }
+
+    .s-finance__financial-overview .row{
+        margin:0;
+    }
+
+    .line__dotted.line__dotted-dark{
+        min-width: 5rem;
+    }
+
+    .s-finance__financial-overview .banners{
+        display:flex;
+        align-content: center;
+        padding:.5rem;
+        float:right;
+    }
+
+    .s-finance__financial-overview .banners ul{
+        margin:0;
+    }
+
+    .display-2{
+        font-size: xx-large;
+    }
+    /* Financing Overview ---------- end */
+
+    /* Buttons */
+    .s-finance__buttons{
+        padding: 1rem 1rem;
+    }
+
+    .s-finance__buttons .btn{
+        padding: 0;
+        margin: .5rem;
+        min-width: 130px;
+        line-height: 4.2rem;
+        height: 4.2rem;
+    }
+
+    .s-finance__buttons .btn-outline--primary{
+        font-size: 1rem;
+    }
+
+    .s-finance__buttons .btn--primary{
+        font-size: 1.8rem;
+    }
+    /* Buttons ----------- end */
+
+    /* Provided */
+    .s-finance__provided{
+        margin: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .s-finance__provided .provided.top{
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+
+    .s-finance__provided .provided.bottom{
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+
+    .s-finance__provided .provided{
+       margin: 3rem;
+    }
+    .s-finance__provided .info_container{
+        margin: 1rem 1rem 1rem 1.5rem;
+        line-height: 2rem;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .s-finance__price-summary{
+        margin:.3rem;
+        padding: 1rem;
+        width:auto;
+    }
+
+    .s-finance__price-summary ul{
+        margin-left:0;
+    }
+}
