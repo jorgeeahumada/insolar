@@ -229,29 +229,29 @@
             <h2 class="h3">Pricing Summary</h2>
             <ul class="list-unstyled">
                 <li class="row">
-                    <div class="col col-md-3 col-lg-5 col-xl-4">
+                    <div class="col col-12 col-sm-4 col-md-3 col-lg-5 col-xl-4">
                         <h5>System Install</h5>
                     </div>
-                    <div class="col col-md-6 col-lg-3 col-xl-4 line__dotted"></div>
-                    <div class="col col-md-3 col-lg-4 col-xl-4">
+                    <div class="col col-6 col-sm-4 col-md-6 col-lg-3 col-xl-4 line__dotted"></div>
+                    <div class="col col-6 col-sm-4 col-md-3 col-lg-4 col-xl-4">
                         <h4>$ 4,816</h4>
                     </div>
                 </li>
                 <li class="row">
-                    <div class="col col-md-3 col-lg-5 col-xl-4">
+                    <div class="col col-12 col-sm-3 col-md-3 col-lg-5 col-xl-4">
                         <h5>System Cost</h5>
                     </div>
-                    <div class="col col-md-6 col-lg-3 col-xl-4 line__dotted"></div>
-                    <div class="col col-md-3 col-lg-4 col-xl-4">
+                    <div class="col col-6 col-sm-5 col-md-6 col-lg-3 col-xl-4 line__dotted"></div>
+                    <div class="col col-6 col-sm-4 col-md-3 col-lg-4 col-xl-4">
                         <h4>$ 3,996</h4>
                     </div>
                 </li>
                 <li class="row">
-                    <div class="col col-md-4 col-lg-6 col-xl-5">
+                    <div class="col col-12 col-sm-5 col-md-4 col-lg-6 col-xl-5">
                         <h5>Gross System Cost</h5>
                     </div>
-                    <div class="col col-md-5 col-lg-2 col-xl-2 line__dotted"></div>
-                    <div class="col col-md-3 col-lg-4 col-xl-5">
+                    <div class="col col-6 col-sm-3 col-md-5 col-lg-2 col-xl-2 line__dotted"></div>
+                    <div class="col col-6 col-sm-4 col-md-3 col-lg-4 col-xl-5">
                         <h4>$ 8,781.90</h4>
                     </div>
                 </li>
@@ -259,15 +259,15 @@
                     <h5 class="first__p">Credit Details</h5>
                     <h6 class="second__p">US Federal Tax Credit (30%)</h6>
                     <div class="row">
-                        <div class="col offset-md-2 col-md-7 col-xl-8 line__dotted"></div>
-                        <div class="col col-md-3 col-xl-4">
+                        <div class="col col-4 offset-md-2 col-md-7 col-xl-8 line__dotted"></div>
+                        <div class="col col-8 col-md-3 col-xl-4">
                             <h4>$ 2,643.57</h4>
                         </div>
                     </div>
                 </li>
             </ul>
             <h3>Net Total</h3>
-            <div class="row">
+            <div class="row cash_total">
                 <div class="col offset-md-2 col-md-7 col-xl-7 line__dotted"></div>
                 <div class="col col-md-3 col-xl-5">
                     <h4 class="h2">$ 6,147.33</h4>
@@ -277,57 +277,57 @@
 
         <div class="s-finance__financial-overview"> <!-- Financing Overview -->
             <h2>Financial Overview</h2>
-            <div class="row">
-                <div class=" col-md-9 col-lg-8 info_container">
+            <div class="main row">
+                <div class=" col-sm-12 col-md-9 col-lg-8 info_container">
                     <ul class="list-unstyled">
                         <li class="row">
-                            <div class="col col-md-4 col-lg-6 col-xl-3">
+                            <div class="col col-12 col-md-4 col-lg-6 col-xl-3">
                                 <h4 class="simple_header">Down Payment</h4>
                             </div>
-                            <div class="col col-md-5 col-lg-2 col-xl-6 line__dotted line__dotted-dark"></div>
-                            <div class="col col-md-3 col-lg-4 col-xl-3">
+                            <div class="col col-7 col-md-5 col-lg-2 col-xl-6 line__dotted line__dotted-dark"></div>
+                            <div class="col col-5 col-md-3 col-lg-4 col-xl-3">
                                 <h4>$ 0</h4>
                             </div>
                         </li>
                         <li class="row">
-                            <div class="col col-lg-5 col-xl-3">
+                            <div class="col col-12 col-lg-5 col-xl-3">
                                 <h4 class="simple_header">Interest Rate</h4>
                             </div>
-                            <div class="col col-lg-3 col-xl-6 line__dotted line__dotted-dark"></div>
-                            <div class="col col-lg-4 col-xl-3">
+                            <div class="col col-7 col-lg-3 col-xl-6 line__dotted line__dotted-dark"></div>
+                            <div class="col col-5 col-lg-4 col-xl-3">
                                 <h4>4.99%</h4>
                             </div>
                         </li>
                         <li class="row">
-                            <div class="col col-lg-5 col-xl-3">
+                            <div class="col col-12 col-lg-5 col-xl-3">
                                 <h4 class="simple_header">Loan Period</h4>
                             </div>
-                            <div class="col col-lg-3 col-xl-6 line__dotted line__dotted-dark"></div>
-                            <div class="col col-lg-4 col-xl-3">
+                            <div class="col col-7 col-lg-3 col-xl-6 line__dotted line__dotted-dark"></div>
+                            <div class="col col-5 col-lg-4 col-xl-3">
                                 <h4>20 Years</h4>
                             </div>
                         </li>
                         <li class="row">
-                            <div class="col col-lg-5 col-xl-3">
+                            <div class="col col-12 col-lg-5 col-xl-3">
                                 <h4 class="simple_header">Loan Amount</h4>
                             </div>
-                            <div class="col col-lg-3 col-xl-6 line__dotted line__dotted-dark"></div>
-                            <div class="col col-lg-4 col-xl-3">
+                            <div class="col col-7 col-lg-3 col-xl-6 line__dotted line__dotted-dark"></div>
+                            <div class="col col-5 col-lg-4 col-xl-3">
                                 <h4>$ 9,979</h4>
                             </div>
                         </li>
                         <li class="row">
-                            <div class="col col-lg-6 col-xl-3">
+                            <div class="col col-12 col-lg-6 col-xl-3">
                                 <h4 class="simple_header">Credits/Rebates</h4>
                             </div>
-                            <div class="col col-lg-2 col-xl-6 line__dotted line__dotted-dark"></div>
-                            <div class="col col-lg-4 col-xl-3">
+                            <div class="col col-7 col-lg-2 col-xl-6 line__dotted line__dotted-dark"></div>
+                            <div class="col col-5 col-lg-4 col-xl-3">
                                 <h4>$ 2,994</h4>
                             </div>
                         </li>
                     </ul>
                 </div>
-                <div class=" col-md-3 col-lg-4 banners">
+                <div class=" col-sm-12 col-md-3 col-lg-4 banners">
                     <ul class="stand__outs list-unstyled">
                         <li>
                             <h3 class="display-2 display-2--pink">$ 46.06</h3>
@@ -350,7 +350,7 @@
                     <button class="btn btn--primary">Next</button>
                 </div>
             </div>
-        </div> <!-- Buttons -->
+        </div> <!-- Buttons ------------------------------------- end -->
         <div class="s-finance__provided"> <!-- Provided -->
             <div class="provided top">
                 <div class="info_container">
@@ -376,7 +376,7 @@
                     </div>
                 </div>
             </div>
-        </div> <!-- Provided -->
+        </div> <!-- Provided ------------------------------------ end -->
 
     </section> <!-- finance -->
 
