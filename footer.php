@@ -16,7 +16,7 @@
     <div class="row footer-main">
         <div class="col-md">
             <ul class="list-unstyled">
-                <li>
+                <li class="img_item">
                     <img src="images/office-satellite-view.png" alt="A satellite view of the Insolar office, inside of the UCI Applied Innovation Laboratory"
                 </li>
                 <li>
@@ -27,7 +27,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col-md">
+        <div class="links-container col-md">
             <ul class="list-unstyled">
                 <li>
                     Insolar
@@ -46,7 +46,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col-md">
+        <div class="links-container col-md">
             <ul class="list-unstyled">
                 <li>
                     Resources
@@ -62,7 +62,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col-md">
+        <div class="links-containercol-md">
             <ul class="list-unstyled">
                 <li>
                     Work With Us

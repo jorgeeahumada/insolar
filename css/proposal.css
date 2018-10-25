@@ -482,7 +482,7 @@
 
 /*Provided*/
 .s-finance__provided{
-    margin: 2rem 5rem;
+    margin: 2rem 0;
     display:flex;
     justify-content: flex-end;
 }
@@ -530,7 +530,7 @@
  * ------------------------------------------------------------------- */
 .s-small-print{
     position:relative;
-    margin: 1.5rem 4rem 1.5rem 4rem;
+    margin: 5rem 4rem 1.5rem 4rem;
     font-size: small;
     line-height: 2rem;
     color: #373A43;
@@ -541,6 +541,18 @@
  * # Finances
  *
  * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1500px){
+    /* Price Summary */
+    .s-finance__price-summary{
+        width:35%;
+    }
+    /* Price Summary ------------------------------------ end */
+
+    /* Provided*/
+    .s-finance__provided .provided{
+        margin: 0 1rem;
+    }
+}
 @media only screen and (max-width: 1200px){
     /* Pricing Summary */
     .s-finance__price-summary{
@@ -633,7 +645,7 @@
     /* Provided ---------------------------------- end */
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 992px){
     .s-finance .row{
         margin: 0 0 3rem 0;
     }

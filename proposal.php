@@ -247,10 +247,10 @@
                     </div>
                 </li>
                 <li class="row">
-                    <div class="col col-12 col-sm-5 col-md-4 col-lg-6 col-xl-5">
+                    <div class="col col-12 col-sm-5 col-md-4 col-lg-6 col-xl-6">
                         <h5>Gross System Cost</h5>
                     </div>
-                    <div class="col col-6 col-sm-3 col-md-5 col-lg-2 col-xl-2 line__dotted"></div>
+                    <div class="col col-6 col-sm-3 col-md-5 col-lg-2 col-xl-1 line__dotted"></div>
                     <div class="col col-6 col-sm-4 col-md-3 col-lg-4 col-xl-5">
                         <h4>$ 8,781.90</h4>
                     </div>
@@ -259,8 +259,8 @@
                     <h5 class="first__p">Credit Details</h5>
                     <h6 class="second__p">US Federal Tax Credit (30%)</h6>
                     <div class="row">
-                        <div class="col col-4 offset-md-2 col-md-7 col-xl-8 line__dotted"></div>
-                        <div class="col col-8 col-md-3 col-xl-4">
+                        <div class="col col-4 offset-md-2 col-md-7 col-lg-5 col-xl-5 line__dotted"></div>
+                        <div class="col col-8 col-md-3 col-lg-5 col-xl-5">
                             <h4>$ 2,643.57</h4>
                         </div>
                     </div>
@@ -268,8 +268,8 @@
             </ul>
             <h3>Net Total</h3>
             <div class="row cash_total">
-                <div class="col offset-md-2 col-md-7 col-xl-7 line__dotted"></div>
-                <div class="col col-md-3 col-xl-5">
+                <div class="col col-md-6 line__dotted"></div>
+                <div class="col col-md-6">
                     <h4 class="h2">$ 6,147.33</h4>
                 </div>
             </div>

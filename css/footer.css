@@ -224,15 +224,18 @@ footer .row {
 }
 
 @media only screen and (max-width: 600px) {
-    .footer-main .left {
-        padding-right: 10px;
-    }
-    .footer-main .right {
-        padding-left: 10px;
-    }
     .footer-logo {
         margin: -.6rem auto 3.6rem;
     }
+
+    .footer-main img{
+        max-width: 85%;
+    }
+
+    .footer-main .links-container{
+        max-width: 50%;
+    }
+
     .footer-bottom {
         padding-bottom: .6rem;
     }
@@ -247,31 +250,10 @@ footer .row {
     }
 }
 
-@media only screen and (max-width: 500px) {
-    .footer-subscribe #mc-form input[type="email"] {
-        padding: 1.2rem 20px 1.2rem;
-        background: rgba(24, 25, 28, 0.1);
-        text-align: center;
-    }
-    .footer-subscribe #mc-form input[type=submit] {
-        position: static;
-        width: 100%;
-        margin-bottom: 1.8rem;
-    }
-    .footer-subscribe #mc-form label {
-        text-align: center;
-    }
-
-}
-
 @media only screen and (max-width: 400px) {
-    .footer-main .left {
-        padding-right: 0;
+    .footer-logo img{
+        max-width: 90%;
     }
-    .footer-main .right {
-        padding-left: 0;
-    }
-
 }
 
 
